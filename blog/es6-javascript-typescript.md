@@ -1,6 +1,20 @@
 
 ## 2019/08
 
+### I/O process limit
+
+- Import / Export data with JSON, CSV => [code](https://github.com/ibarapascal/ts-debug-in-vscode/tree/master/src/data_flow)
+
+- Size and length limit of JSON I/O in ts, tested [here](https://github.com/ibarapascal/ts-debug-in-vscode/blob/master/src/data_flow/test-io-json-limit.ts)
+
+- TODO: Know the exact limitation.
+
+
+### Promise
+
+- TODO: summary [[1]](https://basarat.gitbooks.io/typescript/docs/promise.html)
+
+
 ### Difference between shallow copy and deep clone.
 
 ![](https://miro.medium.com/max/390/0*RGt-o4ovYiIt_9nS.)
@@ -14,6 +28,7 @@ var funcArray = someArray.slice(0);
 ```javascript
 JSON.parse(JSON.stringify(object));
 ```
+- Fastest way to duplicate an array in javascript [[1]](https://stackoverflow.com/questions/3978492/fastest-way-to-duplicate-an-array-in-javascript-slice-vs-for-loop/20547803)
 
 - TODO: Other copies?
 

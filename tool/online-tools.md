@@ -4,12 +4,6 @@
 
 - [README.md](https://www.makeareadme.com/)
 
-### GENERATE
-
-- [Placeholder img](https://dummyimage.com/)
-
-- [Random img](http://lorempixel.com/)
-
 ### TRANSFORM
 
 - [Timestamp](https://www.timestampconvert.com/)
@@ -19,6 +13,22 @@
 - [Img/Video/Audio](https://www.onlineconverter.com/)
 
 - [Csv](http://www.convertcsv.com/)
+
+### DISPLAY
+
+- [JSON map](https://vanya.jp.net/vtree/index.html)
+
+- [Json tree](http://chris.photobooks.com/json/default.htm)
+
+- [Csv chart](https://plot.ly/create/#/)
+
+- [Csv graph](https://www.onlinecharttool.com/graph)
+
+### GENERATE
+
+- [Placeholder img](https://dummyimage.com/)
+
+- [Random img](http://lorempixel.com/)
 
 ### PICKER
 

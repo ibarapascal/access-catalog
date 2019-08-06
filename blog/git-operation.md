@@ -1,4 +1,18 @@
 
+### Github content reference
+
+- githubusercontent
+
+```html
+https://github.com/
+ibarapascal/ts-debug-in-vscode/
+blob/master/README.md
+
+https://raw.githubusercontent.com/
+ibarapascal/ts-debug-in-vscode/
+master/README.md
+```
+
 ### Account
 
 - [Git set your account combined to github](https://kbroman.org/github_tutorial/pages/first_time.html)
