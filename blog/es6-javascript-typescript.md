@@ -3,9 +3,9 @@
 
 ### I/O process limit
 
-- Import / Export data with JSON, CSV => [code](https://github.com/ibarapascal/ts-debug-in-vscode/tree/master/src/data_flow)
+- **Import / Export data with JSON, CSV** => [code](https://github.com/ibarapascal/ts-debug-in-vscode/tree/master/src/data_flow)
 
-- Size and length limit of JSON I/O in ts, tested [here](https://github.com/ibarapascal/ts-debug-in-vscode/blob/master/src/data_flow/test-io-json-limit.ts)
+- **Size and length limit** of JSON I/O in ts, tested [here](https://github.com/ibarapascal/ts-debug-in-vscode/blob/master/src/data_flow/test-io-json-limit.ts)
 
 - TODO: Know the exact limitation.
 
@@ -19,24 +19,24 @@
 
 ![](https://miro.medium.com/max/390/0*RGt-o4ovYiIt_9nS.)
 
-- shallow copy: The original array will be unaltered, but each of its elements would still reference their corresponding entries in the original array. Here is one way of it. [[1]](https://stackoverflow.com/questions/14491405/javascript-passing-arrays-to-functions-by-value-leaving-original-array-unaltere)
+- **shallow copy**: The original array will be unaltered, but each of its elements would still reference their corresponding entries in the original array. Here is one way of it. [[1]](https://stackoverflow.com/questions/14491405/javascript-passing-arrays-to-functions-by-value-leaving-original-array-unaltere)
 ```javascript
 var funcArray = someArray.slice(0);
 ```
 
-- deep clone / structured cloning: The most efficient way in most situation is below. [[1]](https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript) [[2]](https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript/10916838#10916838)
+- **deep clone / structured cloning**: The most efficient way in most situation is below. [[1]](https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript) [[2]](https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript/10916838#10916838)
 ```javascript
 JSON.parse(JSON.stringify(object));
 ```
-- Fastest way to duplicate an array in javascript [[1]](https://stackoverflow.com/questions/3978492/fastest-way-to-duplicate-an-array-in-javascript-slice-vs-for-loop/20547803)
+- **Fastest way to duplicate an array in javascript** [[1]](https://stackoverflow.com/questions/3978492/fastest-way-to-duplicate-an-array-in-javascript-slice-vs-for-loop/20547803)
 
 - TODO: Other copies?
 
 ### Comparing array & object [[1]](https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript)
 
-- Comparing arrays: Loop through them and compare every value.
+- **Comparing arrays**: Loop through them and compare every value.
 
-- Comparing objects: Notice that two object instances will never be equal. Notice that JSON way to compare object is fast but need attrs to be ordered.
+- **Comparing objects**: Notice that two object instances will never be equal. Notice that JSON way to compare object is fast but need attrs to be ordered.
 
 - TODO: Other compares?
 
@@ -46,7 +46,7 @@ JSON.parse(JSON.stringify(object));
 
 - TODO: Interface Array<T> summary by I/O, feature, usage, notice points.
 
-- Differnce between forEach(), Every(), Some() and Map() [[1]](https://stackoverflow.com/questions/7340893/what-is-the-difference-between-map-every-and-foreach)
+- **Differnce between forEach(), Every(), Some() and Map()** [[1]](https://stackoverflow.com/questions/7340893/what-is-the-difference-between-map-every-and-foreach)
 
 - forEach
 ```javascript
@@ -80,7 +80,7 @@ map<U>(callbackfn: (value: T, index: number, array: T[]) => U, thisArg?: any): U
 
 ### Returns
 
-- Notice the return writing method in ES6 arrow functions. [[1]](https://stackoverflow.com/questions/28889450/when-should-i-use-return-in-es6-arrow-functions)
+- Notice the **return writing method** in ES6 arrow functions. [[1]](https://stackoverflow.com/questions/28889450/when-should-i-use-return-in-es6-arrow-functions)
 
 ```javascript
 // OK
@@ -96,11 +96,11 @@ map<U>(callbackfn: (value: T, index: number, array: T[]) => U, thisArg?: any): U
 
 ### Type
 
-- Forced type conversion: notice [] is true
+- **Forced type conversion**: notice [] is true
 
 - TODO: Summary [[1]](https://www.w3schools.com/js/js_type_conversion.asp)
 
-- Type annotation for object with unknown properties but known property types [[1]](https://github.com/Microsoft/TypeScript/issues/7803)
+- **Type annotation for object with unknown properties but known property types** [[1]](https://github.com/Microsoft/TypeScript/issues/7803)
 
 ```javascript
 interface MetadataObj {
@@ -108,7 +108,7 @@ interface MetadataObj {
 }
 ```
 
-- Check variable type [[1]](https://stackoverflow.com/questions/35546421/how-to-get-a-variable-type-in-typescript)
+- **Check variable type** [[1]](https://stackoverflow.com/questions/35546421/how-to-get-a-variable-type-in-typescript)
 
 ```javascript
 abc:number|string;
