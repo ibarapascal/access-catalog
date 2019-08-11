@@ -12,9 +12,11 @@ git config --global user.email <your_email@example.com>
 
 - Tslint, Eslint, Jslint,
 
-- Auto Comment Blocks, ()
+- Auto Comment Blocks, Better Comments,
 
 - Docker,
+
+- CryptoTicker
 
 
 ## Chrome

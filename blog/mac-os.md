@@ -2,7 +2,9 @@
 
 - [explanation and steps](https://www.howtogeek.com/289594/how-to-install-macos-sierra-in-virtualbox-on-windows-10/)   
 
-- [Mac OS High Sierra ISO download](https://drive.google.com/drive/folders/1VuY3ormZ5XORFaa8hdILus83RZ4Aqdsk)
+- [Mac OS High Sierra ISO download](https://ia800707.us.archive.org/32/items/MacOSXHighSierra10.13/macOS%20HighSierra%2010.13.iso)
+
+- [How to Enable Intel VT-X & AMD Virtualization on PC, VMware, VirtualBox](https://www.tactig.com/enable-intel-vt-x-amd-virtualization-pc-vmware-virtualbox/)
 
 - [VirtualBox download](https://www.virtualbox.org/)
 
