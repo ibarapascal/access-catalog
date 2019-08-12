@@ -1,6 +1,20 @@
 
 ## 2019/08
 
+
+### String prototype -- padStart()
+
+- [How to output integers with leading zeros in JavaScript](https://stackoverflow.com/questions/2998784/how-to-output-integers-with-leading-zeros-in-javascript)
+
+  => [ECMAScript 2017 way to solve it](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)
+
+```javascript
+const str1 = '5';
+console.log(str1.padStart(2, '0'));
+// expected output: "05"
+```
+
+
 ### I/O process limit
 
 - **Import / Export data with JSON, CSV** => [code](https://github.com/ibarapascal/ts-debug-in-vscode/tree/master/src/data_flow)
