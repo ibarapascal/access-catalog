@@ -2,6 +2,22 @@
 ## 2019/08
 
 
+### Array prototype -- slice(), splice(), split()
+
+
+### fs
+
+- [Delete all files in spesific folder](https://stackoverflow.com/questions/27072866/how-to-remove-all-files-from-directory-without-removing-directory-in-node-js)
+
+```javascript
+  fs.readdir(path, (err, files) =>{
+      files.forEach(file => {
+          fs.unlink(path + file, err => {});
+      });
+  });
+```
+
+
 ### String prototype -- padStart()
 
 - [How to output integers with leading zeros in JavaScript](https://stackoverflow.com/questions/2998784/how-to-output-integers-with-leading-zeros-in-javascript)
