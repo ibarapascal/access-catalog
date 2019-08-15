@@ -1,3 +1,6 @@
+## Using extention in vscode : LeetCode
+
+
 ### &#10008; [4] Median of Two Sorted Arrays
 
 Sort run-time-complexity [[1]](https://www.quora.com/Which-sorting-algorithm-has-best-asymptotic-run-time-complexity)
@@ -65,7 +68,16 @@ Linked list [[1]](https://codeburst.io/linked-lists-in-javascript-es6-code-part-
 
 ### &#10004; [42] Trapping Rain Water
 
-Attention! In javascript
+>√ Accepted 2019/08/15
+>
+>  √ 315/315 cases passed (160 ms)
+> 
+>  √ Your runtime beats 6.11 % of javascript submissions
+> 
+>  √ Your memory usage beats 7.14 % of javascript submissions (45.2 MB)
+
+
+Attention!
 
 ```javascript
 += // YES
@@ -73,13 +85,65 @@ Attention! In javascript
 ```
 
 ```javascript
-reverse() // DO change the original array
+reverse() // Do change the original array
 ```
 
 ### &#10008; [44] Wildcard Matching
 
 ### &#10004; [50] Pow(x, n)
 
+>√ Accepted 2019/08/15
+>
+>  √ 304/304 cases passed (64 ms)
+> 
+>  √ Your runtime beats 37.08 % of javascript submissions
+> 
+>  √ Your memory usage beats 47.06 % of javascript submissions (33.9 MB)
+
+
 ### &#10008; [54] Spiral Matrix
 
-### &#10008; [56] Merge Intervals
+### &#10004; [56] Merge Intervals
+
+>√ Accepted 2019/08/16
+>
+>  √ 169/169 cases passed (92 ms)
+> 
+>  √ Your runtime beats 19.36 % of javascript submissions
+> 
+>  √ Your memory usage beats 7.69 % of javascript submissions (40.8 MB)
+
+Attention!
+
+```javascript
+// OK
+function theLarger(A, B) {
+    const unit = [A[0], A[1], B[0], B[1]];
+    return [Math.min(...unit), Math.max(...unit)];
+}
+// NG
+function theLarger(A, B) {
+    const unit = (A[0], A[1], B[0], B[1]);
+    return [Math.min(unit), Math.max(unit)];
+}
+```
+
+### &#10004; [57] Insert Interval
+
+>√ Accepted 2019/08/16
+>
+>  √ 154/154 cases passed (80 ms)
+> 
+>  √ Your runtime beats 29.72 % of javascript submissions
+> 
+>  √ Your memory usage beats 12.5 % of javascript submissions (38.9 MB)
+
+```javascript
+const intervals = [1,2,3,4];
+console.log(intervals.slice(0).splice(0, 1)[0]); // 1
+console.log(intervals[0]);                       // 1
+console.log(intervals.splice(0, 1)[0]);          // 1
+console.log(intervals[0]);                       // 2
+```
+
+
