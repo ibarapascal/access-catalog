@@ -36,6 +36,7 @@ var merge = function (intervals) {
     // checkFirst(intervals);
     // return result;
 
+
     // ! ERROR
     // × Wrong Answer
     // × 48/169 cases passed (N/A)
@@ -43,6 +44,7 @@ var merge = function (intervals) {
     // × answer: [[2,3],[4,5],[6,7],[1,10]]
     // × expected_answer: [[1,10]]
     // × stdout:
+
     // if (!intervals || intervals.length === 0) {
     //     return [];
     // } else if (intervals.length === 1) {
@@ -65,6 +67,11 @@ var merge = function (intervals) {
     // }
 
     
+// ? √ Accepted 2019/08/16
+//   √ 169/169 cases passed (92 ms)
+//   √ Your runtime beats 19.36 % of javascript submissions
+//   √ Your memory usage beats 7.69 % of javascript submissions (40.8 MB)
+
     function makeIdxSort(data, index) {
         return data.sort((a,b) => a[index] - b[index]);
     }

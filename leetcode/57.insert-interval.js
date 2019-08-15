@@ -9,6 +9,12 @@
  * @return {number[][]}
  */
 var insert = function(intervals, newInterval) {
+
+// ? √ Accepted 2019/08/16
+//   √ 154/154 cases passed (80 ms) 
+//   √ Your runtime beats 29.72 % of javascript submissions
+//   √ Your memory usage beats 12.5 % of javascript submissions (38.9 MB)
+
     function makeIdxSort(data, index) {
         return data.sort((a,b) => a[index] - b[index]);
     }

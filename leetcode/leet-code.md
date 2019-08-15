@@ -68,12 +68,9 @@ Linked list [[1]](https://codeburst.io/linked-lists-in-javascript-es6-code-part-
 
 ### &#10004; [42] Trapping Rain Water
 
->√ Accepted 2019/08/15
->
->  √ 315/315 cases passed (160 ms)
-> 
->  √ Your runtime beats 6.11 % of javascript submissions
-> 
+>√ Accepted 2019/08/15  
+>  √ 315/315 cases passed (160 ms)  
+>  √ Your runtime beats 6.11 % of javascript submissions  
 >  √ Your memory usage beats 7.14 % of javascript submissions (45.2 MB)
 
 
@@ -92,12 +89,9 @@ reverse() // Do change the original array
 
 ### &#10004; [50] Pow(x, n)
 
->√ Accepted 2019/08/15
->
->  √ 304/304 cases passed (64 ms)
-> 
->  √ Your runtime beats 37.08 % of javascript submissions
-> 
+>√ Accepted 2019/08/15  
+>  √ 304/304 cases passed (64 ms)  
+>  √ Your runtime beats 37.08 % of javascript submissions  
 >  √ Your memory usage beats 47.06 % of javascript submissions (33.9 MB)
 
 
@@ -105,12 +99,9 @@ reverse() // Do change the original array
 
 ### &#10004; [56] Merge Intervals
 
->√ Accepted 2019/08/16
->
->  √ 169/169 cases passed (92 ms)
-> 
->  √ Your runtime beats 19.36 % of javascript submissions
-> 
+>√ Accepted 2019/08/16  
+>  √ 169/169 cases passed (92 ms)  
+>  √ Your runtime beats 19.36 % of javascript submissions  
 >  √ Your memory usage beats 7.69 % of javascript submissions (40.8 MB)
 
 Attention!
@@ -130,12 +121,9 @@ function theLarger(A, B) {
 
 ### &#10004; [57] Insert Interval
 
->√ Accepted 2019/08/16
->
->  √ 154/154 cases passed (80 ms)
-> 
->  √ Your runtime beats 29.72 % of javascript submissions
-> 
+>√ Accepted 2019/08/16  
+>  √ 154/154 cases passed (80 ms)  
+>  √ Your runtime beats 29.72 % of javascript submissions  
 >  √ Your memory usage beats 12.5 % of javascript submissions (38.9 MB)
 
 ```javascript
@@ -146,4 +134,31 @@ console.log(intervals.splice(0, 1)[0]);          // 1
 console.log(intervals[0]);                       // 2
 ```
 
+### &#10004; [66] Plus One
+
+>√ Accepted 2019/08/16  
+>  √ 109/109 cases passed (56 ms)  
+>  √ Your runtime beats 60.51 % of javascript submissions  
+>  √ Your memory usage beats 87.23 % of javascript submissions (33.8 MB)
+
+### &#10008; [128] Longest Consecutive Sequence
+
+array | union-find
+
+Your algorithm should run in O(n) complexity.
+
+### &#10008; [133] Clone Graph
+
+depth-first-search | breadth-first-search | graph
+
+### &#9083; [139] Word Break
+
+>√ Accepted 2019/08/16  
+>  √ 36/36 cases passed (44 ms)  
+>  √ Your runtime beats 99.78 % of javascript submissions  
+>  √ Your memory usage beats 100 % of javascript submissions (33.8 MB)
+
+### &#9083; Word Break II
+
+Tree | dynamic-programming | backtracking
 

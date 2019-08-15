@@ -50,7 +50,7 @@
 - [ts-debug-in-vscode](https://github.com/ibarapascal/ts-debug-in-vscode): Typescript unit test & libs
 
 
-#### 4.2 Repo: Project
+#### 4.2 Project
 
 - [time-controller](https://github.com/ibarapascal/time-controller): Angular8 + Ionic5, a self-use time management Android application.
 

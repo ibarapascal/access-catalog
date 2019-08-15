@@ -8,6 +8,12 @@
  * @return {number}
  */
 var trap = function(height) {
+
+// ? √ Accepted 2019/08/15
+//   √ 315/315 cases passed (160 ms) 
+//   √ Your runtime beats 6.11 % of javascript submissions 
+//   √ Your memory usage beats 7.14 % of javascript submissions (45.2 MB)
+
     var maxHeight= Math.max(...height);
     var maxIndexA = height.indexOf(maxHeight);
     var maxIndexB = height.length - 1 - JSON.parse(JSON.stringify(height)).reverse().indexOf(maxHeight);
