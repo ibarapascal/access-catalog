@@ -14,6 +14,8 @@
 
 - **[Css code generator](https://html-css-js.com/css/generator/)** : Amazing availability
 
+- [HTML unicode](http://www.amp-what.com/unicode/search/)
+
 - [Material icon and color](https://www.materialpalette.com/icons) : Icon
 
 - [Random color list](https://codecrafted.net/randommaterial/) : Nice color
