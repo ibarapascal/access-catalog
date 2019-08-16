@@ -8,15 +8,27 @@ Sort run-time-complexity [[1]](https://www.quora.com/Which-sorting-algorithm-has
 number | 0, number & 1, [[1]](https://www.w3schools.com/JSREF/jsref_operators.asp)
 
 ```javascript
-console.log(- 1.1 | 0); // -1
-console.log(0 | 0); // 0
-console.log(5 | 0); // 5
-console.log(5.99 | 0); // 5
+// check
+console.log(- 1.1 | 0);
+console.log(0 | 0);
+console.log(5 | 0);
+console.log(5.99 | 0);
+// output
+-1
+0
+5
+5
 
-console.log(- 1.1 & 1); // 1
-console.log(0 & 1); // 0
-console.log(2.3 & 1); // 0
-console.log(5.6 & 1); // 1
+// check
+console.log(- 1.1 & 1);
+console.log(0 & 1);
+console.log(2.3 & 1);
+console.log(5.6 & 1);
+// output
+1
+0
+0
+1
 ```
 make input params fit condition with inner transfer
 
@@ -158,7 +170,71 @@ depth-first-search | breadth-first-search | graph
 >  √ Your runtime beats 99.78 % of javascript submissions  
 >  √ Your memory usage beats 100 % of javascript submissions (33.8 MB)
 
-### &#9083; Word Break II
+### &#9083; [140] Word Break II
 
 Tree | dynamic-programming | backtracking
 
+### &#10008; [146] LRU Cache
+
+design | hashTable
+
+### &#10004; [162] Find Peak Element
+
+>√ Accepted 2019/08/16  
+>  √ 59/59 cases passed (56 ms)  
+>  √ Your runtime beats 52.69 % of javascript submissions  
+>  √ Your memory usage beats 12.5 % of javascript submissions (34.8 MB)  
+
+### &#9083; [166] Fraction to Recurring Decimal
+
+hash-table | math
+
+### &#10008; [173] Binary Search Tree Iterator
+
+stack | tree | design
+
+### &#10008; [200] Number of Islands
+
+depth-first-search | breadth-first-search | union-find
+
+### &#10004; [200] Number of Islands
+
+>√ Accepted 2019/08/16 Nice one  
+>  √ 47/47 cases passed (64 ms)  
+>  √ Your runtime beats 74.64 % of javascript submissions  
+>  √ Your memory usage beats 41.94 % of javascript submissions (37.6 MB)  
+
+Recursive thought with deep-first-search
+
+### &#9083; [208] Implement Trie (Prefix Tree)
+
+prototype | design | trie
+
+
+### &#10004; [212] Word Search II
+
+>√ Accepted 2019/08/16  
+>  √ 36/36 cases passed (5704 ms)  
+>  √ Your runtime beats 5.17 % of javascript submissions  
+>  √ Your memory usage beats 25 % of javascript submissions (51.4 MB)  
+
+```javascript
+// check
+let a = [1,1,1];
+let b = a.splice(a.length, 0, 11111);
+console.log(b, a);
+let c = a.concat(111111);
+console.log(c, a);
+let d = a.push(111111);
+console.log(d, a);
+// output
+// Array(0) []
+// Array(4) [1, 1, 1, 11111]
+// Array(5) [1, 1, 1, 11111, 111111]
+// Array(4) [1, 1, 1, 11111]
+// 5
+// Array(5) [1, 1, 1, 11111, 111111]
+```
+
+Attention! List **CAN NOT** direct compare.  
+Use deep copy or compare by bit.   
