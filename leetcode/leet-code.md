@@ -238,3 +238,14 @@ console.log(d, a);
 
 Attention! List **CAN NOT** direct compare.  
 Use deep copy or compare by bit.   
+
+
+### &#9083; [214] Shortest Palindrome
+
+> √ Accepted 2019/08/17  
+>  √ 120/120 cases passed (104 ms)  
+>  √ Your runtime beats 54.33 % of javascript submissions  
+>  √ Your memory usage beats 100 % of javascript submissions (41.2 MB)  
+
+
+
