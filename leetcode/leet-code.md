@@ -199,7 +199,7 @@ depth-first-search | breadth-first-search | union-find
 
 ### &#10004; [200] Number of Islands
 
->√ Accepted 2019/08/16 Nice one  
+>√ Accepted 2019/08/16 **Nice one**  
 >  √ 47/47 cases passed (64 ms)  
 >  √ Your runtime beats 74.64 % of javascript submissions  
 >  √ Your memory usage beats 41.94 % of javascript submissions (37.6 MB)  
@@ -248,4 +248,39 @@ Use deep copy or compare by bit.
 >  √ Your memory usage beats 100 % of javascript submissions (41.2 MB)  
 
 
+### &#10004; [218] The Skyline Problem
 
+>√ Accepted 2019/08/17 **Well done**  
+>  √ 36/36 cases passed (1312 ms)  
+>  √ Your runtime beats 23.59 % of javascript submissions  
+>  √ Your memory usage beats 100 % of javascript submissions (44.8 MB)  
+
+
+### &#10004; [224] Basic Calculator
+
+>√ Accepted 2019/08/17  
+>  √ 37/37 cases passed (120 ms)  
+>  √ Your runtime beats 19.14 % of javascript submissions  
+>  √ Your memory usage beats 33.33 % of javascript submissions (59.3 MB)  
+
+### &#10004; [228] Summary Ranges
+
+>√ Accepted 2019/08/17  
+>  √ 28/28 cases passed (68 ms)  
+>  √ Your runtime beats 6.08 % of javascript submissions  
+>  √ Your memory usage beats 50 % of javascript submissions (33.9 MB)  
+
+### &#10008; [230] Kth Smallest Element in a BST
+
+binary-search | tree
+
+### &#10004; [231] Power of Two
+
+>√ Accepted 2019/08/17  
+>  √ 1108/1108 cases passed (84 ms)  
+>  √ Your runtime beats 17.62 % of javascript submissions  
+>  √ Your memory usage beats 15.38 % of javascript submissions (35.8 MB)  
+
+### &#10008; [239] Sliding Window Maximum
+
+heap | sliding-window | Could you solve it in linear time?
