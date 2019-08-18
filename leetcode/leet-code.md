@@ -284,3 +284,15 @@ binary-search | tree
 ### &#10008; [239] Sliding Window Maximum
 
 heap | sliding-window | Could you solve it in linear time?
+
+### &#9083; [240] Search a 2D Matrix II
+
+>√ Accepted 2019/08/18  
+>  √ 129/129 cases passed (788 ms)  
+>  √ Your runtime beats 8.61 % of javascript submissions  
+>  √ Your memory usage beats 11.11 % of javascript submissions (40 MB)  
+
+### &#10008; [257] Binary Tree Paths
+
+Bfs -> Dfs | tree | depth-first-search
+
