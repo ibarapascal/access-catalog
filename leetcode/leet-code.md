@@ -172,11 +172,11 @@ depth-first-search | breadth-first-search | graph
 
 ### &#9083; [140] Word Break II
 
-Tree | dynamic-programming | backtracking
+**Tree** | dynamic-programming | backtracking
 
 ### &#10008; [146] LRU Cache
 
-design | hashTable
+**Hash Table** | design | hashTable
 
 ### &#10004; [162] Find Peak Element
 
@@ -187,15 +187,11 @@ design | hashTable
 
 ### &#9083; [166] Fraction to Recurring Decimal
 
-hash-table | math
+**Hash Table** | math
 
 ### &#10008; [173] Binary Search Tree Iterator
 
-stack | tree | design
-
-### &#10008; [200] Number of Islands
-
-depth-first-search | breadth-first-search | union-find
+**Tree** | stack | tree | design
 
 ### &#10004; [200] Number of Islands
 
@@ -272,7 +268,7 @@ Use deep copy or compare by bit.
 
 ### &#10008; [230] Kth Smallest Element in a BST
 
-binary-search | tree
+**Tree** | binary-search | tree
 
 ### &#10004; [231] Power of Two
 
@@ -283,7 +279,7 @@ binary-search | tree
 
 ### &#10008; [239] Sliding Window Maximum
 
-heap | sliding-window | Could you solve it in linear time?
+**Linear time complexity** | heap | sliding-window
 
 ### &#9083; [240] Search a 2D Matrix II
 
@@ -294,5 +290,31 @@ heap | sliding-window | Could you solve it in linear time?
 
 ### &#10008; [257] Binary Tree Paths
 
-Bfs -> Dfs | tree | depth-first-search
+**Tree** | Bfs -> Dfs | depth-first-search
 
+### &#10004; [274] H-Index
+
+>√ Accepted 2019/08/19 **Nice**  
+>  √ 82/82 cases passed (48 ms)  
+>  √ Your runtime beats 96.88 % of javascript submissions  
+>  √ Your memory usage beats 100 % of javascript submissions (34.9 MB)  
+
+### &#9083; [279] Perfect Squares
+
+**Tree** | math | dynamic-programming | breadth-first-search
+
+### &#10008; [282] Expression Add Operators
+
+divide-and-conquer
+
+Totally no idea of how to solve it.
+
+### &#10008; [284] Peeking Iterator
+
+design
+
+No Javascript reference.
+
+### &#9083; [289] Game of Life
+
+Error in remote js test while good in local ts, just weird.
