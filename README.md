@@ -12,6 +12,8 @@
 
 - [es6-javascript-typescript](https://github.com/ibarapascal/access-catalog/blob/master/blog/es6-javascript-typescript.md)
 
+- [ECMAScriptVersionDifferences](https://github.com/ibarapascal/access-catalog/blob/master/blog/ECMAScriptVersionDifferences.md)
+
 #### 1.2 Html / Css
 
 - [html-css](https://github.com/ibarapascal/access-catalog/blob/master/blog/html-css.md)
