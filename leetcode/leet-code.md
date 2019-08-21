@@ -64,6 +64,8 @@ var res = str.substr(1, 4);
 
 ### &#9083; [20] Valid Parentheses !!! (Understood)
 
+BSC in 2019/08/21
+
 The way to find out whether a letter belongs to a string, and return the index
 
 ```javascript
@@ -71,6 +73,8 @@ The way to find out whether a letter belongs to a string, and return the index
 ```
 
 ### &#10008; [22] Generate Parentheses
+
+BSC in 2019/08/21
 
 ### &#10008; [23] Merge k Sorted Lists
 
@@ -318,3 +322,36 @@ No Javascript reference.
 ### &#9083; [289] Game of Life
 
 Error in remote js test while good in local ts, just weird.
+
+### &#9083; [295] Find Median from Data Stream
+
+Attention!
+```javascript
+this.list.sort();
+// [ 1, 10, 2, 3, 4, 5, 6, 7, 8, 9 ]
+this.list.sort((a, b) => a - b);
+// [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+```
+
+Trick
+```javascript
+if (index !== -1) {
+if (~index) {
+```
+
+### &#10008; [297] Serialize and Deserialize Binary Tree
+
+**Tree** | design
+
+### &#10008; [309] Best Time to Buy and Sell Stock with Cooldown
+
+Just dont understand the question
+
+### &#10008; [310] Minimum Height Trees
+
+breadth-first-search | graph
+
+### &#10008; [312] Burst Balloons
+
+divide-and-conquer | dynamic-programming
+
