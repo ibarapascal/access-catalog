@@ -13,6 +13,17 @@ ibarapascal/ts-debug-in-vscode/
 master/README.md
 ```
 
+### Proxy
+
+- [Git proxy setting](https://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server)
+
+```shell
+git config --global --list
+git confgi --local --list
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
 ### Account
 
 - [Git set your account combined to github](https://kbroman.org/github_tutorial/pages/first_time.html)
