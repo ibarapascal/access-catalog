@@ -39,7 +39,7 @@ array | hash-table | two-pointers
 ### &#9083; [26] Remove Duplicates from Sorted Array
 
 >2019/08/26  
-Error: Difference result between local and test check
+Error: Different result between local and test check
 
 ### &#9083; [27] Remove Element
 
@@ -87,7 +87,7 @@ array | backtracking
 >√ Accepted 2019/08/26  
   √ 165/165 cases passed (60 ms)  
   √ Your runtime beats 53.5 % of javascript submissions  
-  √ Your memory usage beats 25 % of javascript submissions (35.1 MB)  
+√ Your memory usage beats 25 % of javascript submissions (35.1 MB)  
 
 ### &#10004; [42] Trapping Rain Water
 
@@ -185,4 +185,202 @@ Play with it later
 
 >2019/08/26  
 You are not suppose to use the library's sort function for this problem.
+
+### &#10008; [78] Subsets
+
+>2019/08/27
+
+### &#10004; [79] Word Search
+
+>√ Accepted 2019/08/27  
+  √ 87/87 cases passed (2632 ms)  
+  √ Your runtime beats 5 % of javascript submissions  
+  √ Your memory usage beats 38.46 % of javascript submissions (42.9 MB)  
+
+### &#9083; [80] Remove Duplicates from Sorted Array II
+
+>2019/08/27  
+Error: Different result between local and test check
+
+### &#9083; [81] Search in Rotated Sorted Array II
+
+>√ Accepted 2019/08/27  
+  √ 275/275 cases passed (56 ms)  
+  √ Your runtime beats 77.07 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (34.1 MB)  
+
+This is a follow up problem to Search in Rotated Sorted Array, where nums may contain duplicates.
+
+### &#10004; [84] Largest Rectangle in Histogram
+
+>√ Accepted 2019/08/27  
+  √ 96/96 cases passed (888 ms)  
+  √ Your runtime beats 16.91 % of javascript submissions  
+  √ Your memory usage beats 28.57 % of javascript submissions (38.1 MB)  
+
+### &#10008; [85] Maximal Rectangle
+
+>2019/08/27  
+array | hash-table | dynamic-programming | stack  
+
+### &#9083; [88] Merge Sorted Array
+
+>2019/08/27  
+Error: Different result between local and test check
+
+### &#10008; [90] Subsets II
+
+>2019/08/27  
+array | backtracking
+
+### &#10008; [105] Construct Binary Tree from Preorder and Inorder Traversal
+
+>2019/08/27  
+array | tree | depth-first-search
+
+### &#10008; [106] Construct Binary Tree from Inorder and Postorder Traversal
+
+>2019/08/27  
+array | tree | depth-first-search
+
+### &#10008; [118] Pascal’s Triangle
+
+>2019/08/27  
+Play with it later
+
+### &#10008; [118] Pascal’s Triangle II
+
+>2019/08/27  
+Play with it later
+
+### &#9083; [120] Triangle
+
+>× Time Limit Exceeded 2019/08/27  
+  × 42/43 cases passed (N/A)  
+  × testcase: '......'  
+  × answer:   
+  × expected_answer:   
+  × stdout:  
+
+### &#10004; [121] Best Time to Buy and Sell Stock
+
+>√ Accepted 2019/08/27  
+  √ 200/200 cases passed (60 ms)  
+  √ Your runtime beats 68.23 % of javascript submissions  
+  √ Your memory usage beats 88.89 % of javascript submissions (35.3 MB)  
+
+### &#10004; [122] Best Time to Buy and Sell Stock II
+
+>√ Accepted 2019/08/27  
+  √ 201/201 cases passed (60 ms)  
+  √ Your runtime beats 59.35 % of javascript submissions  
+  √ Your memory usage beats 85.71 % of javascript submissions (35.3 MB)  
+
+### &#10008; [123] Best Time to Buy and Sell Stock III
+
+>2019/08/27  
+Hard, play later
+
+### &#9083; [126] Word Ladder II
+
+>2019/08/27  
+Error: Time Limit Exceeded
+
+### &#10004; [128] Longest Consecutive Sequence
+
+>√ Accepted 2019/08/27  
+  √ 68/68 cases passed (80 ms)  
+  √ Your runtime beats 34.55 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (36.3 MB)  
+
+### &#10008; [152] Maximum Product Subarray
+
+>2019/08/27  
+Play with it later
+
+### &#9083; [153] Find Minimum in Rotated Sorted Array
+
+>√ Accepted 2019/08/27  
+  √ 146/146 cases passed (68 ms)  
+  √ Your runtime beats 14.48 % of javascript submissions  
+  √ Your memory usage beats 18.75 % of javascript submissions (35.4 MB)  
+
+### &#9083; [154] Find Minimum in Rotated Sorted Array II
+
+>√ Accepted 2019/08/27  
+  √ 192/192 cases passed (72 ms)  
+  √ Your runtime beats 14.87 % of javascript submissions  
+  √ Your memory usage beats 9.09 % of javascript submissions (36 MB)  
+
+### &#10004; [162] Find Peak Element
+
+>√ Accepted 2019/08/16  
+  √ 59/59 cases passed (56 ms)  
+  √ Your runtime beats 52.69 % of javascript submissions  
+  √ Your memory usage beats 12.5 % of javascript submissions (34.8 MB)  
+
+### &#10004; [167] Two Sum II - Input array is sorted
+
+>√ Accepted 2019/08/27  
+  √ 17/17 cases passed (204 ms)  
+  √ Your runtime beats 19.71 % of javascript submissions  
+  √ Your memory usage beats 8.7 % of javascript submissions (41.6 MB)  
+
+### &#10004; [169] Majority Element
+
+>√ Accepted 2019/08/27  
+  √ 44/44 cases passed (104 ms)  
+  √ Your runtime beats 5.56 % of javascript submissions  
+  √ Your memory usage beats 7.14 % of javascript submissions (40 MB)  
+
+### &#10004; [189] Rotate Array
+
+>√ Accepted 2019/08/27  
+  √ 34/34 cases passed (104 ms)  
+  √ Your runtime beats 16.32 % of javascript submissions  
+  √ Your memory usage beats 5.26 % of javascript submissions (36.4 MB)  
+
+### &#10004; [209] Minimum Size Subarray Sum
+
+>√ Accepted 2019/08/27  
+  √ 15/15 cases passed (64 ms)  
+  √ Your runtime beats 36.86 % of javascript submissions  
+  √ Your memory usage beats 50 % of javascript submissions (41.9 MB)  
+
+### &#10008; [216] Combination Sum III
+
+>2019/08/27  
+array | backtracking  
+Play with it later
+
+### &#10004; [217] Contains Duplicate
+
+>√ Accepted 2019/08/27  
+  √ 18/18 cases passed (3724 ms)  
+  √ Your runtime beats 5.07 % of javascript submissions  
+  √ Your memory usage beats 88.24 % of javascript submissions (38.8 MB)  
+
+### &#10004; [219] Contains Duplicate II
+
+>√ Accepted 2019/08/27  
+  √ 23/23 cases passed (5612 ms)  
+  √ Your runtime beats 5.08 % of javascript submissions  
+  √ Your memory usage beats 89.47 % of javascript submissions (38.8 MB)  
+
+### &#10004; [228] Summary Ranges
+
+>√ Accepted 2019/08/17  
+  √ 28/28 cases passed (68 ms)  
+  √ Your runtime beats 6.08 % of javascript submissions  
+  √ Your memory usage beats 50 % of javascript submissions (33.9 MB)  
+
+### &#10004; [229] Majority Element II
+
+>2019/08/27  
+
+### &#10004; [238] Product of Array Except Self
+
+>2019/08/27  
+Note: Please solve it without division and in O(n).  
+Could you solve it with constant space complexity? 
 
