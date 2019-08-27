@@ -42,7 +42,9 @@
 
 ## 3. Leetcode
 
-- [leet-code](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code.md)
+- [leet-code-google](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code-google.md)
+
+- [leet-code-array](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code-array.md)
 
 
 ## 4. Repo
