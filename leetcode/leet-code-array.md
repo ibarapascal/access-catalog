@@ -476,3 +476,57 @@ array | hash-table
   √ Your runtime beats 33.42 % of javascript submissions  
   √ Your memory usage beats 11.11 % of javascript submissions (40.1 MB)  
 
+### &#10008; [565] Array Nesting
+
+>2019/08/28  
+
+### &#10004; [566] Reshape the Matrix
+
+>√ Accepted 2019/08/28  
+  √ 56/56 cases passed (68 ms)  
+  √ Your runtime beats 99.43 % of javascript submissions  
+  √ Your memory usage beats 40 % of javascript submissions (40.3 MB)  
+
+### &#10004; [581] Shortest Unsorted Continuous Subarray
+
+>√ Accepted 2019/08/28  
+  √ 307/307 cases passed (108 ms)  
+  √ Your runtime beats 33.98 % of javascript submissions  
+  √ Your memory usage beats 12.5 % of javascript submissions (38.6 MB)  
+
+### &#10004; [605] Can Place Flowers
+
+>√ Accepted 2019/08/28  
+  √ 123/123 cases passed (92 ms)  
+  √ Your runtime beats 7.97 % of javascript submissions  
+  √ Your memory usage beats 60 % of javascript submissions (36.9 MB)  
+
+### &#10008; [611] Valid Triangle Number
+
+>2019/08/28  
+
+### &#9083; [621] Task Scheduler
+
+>2019/08/28  
+Doubt the test case.
+
+### &#10004; [628] Maximum Product of Three Numbers
+
+>√ Accepted 2019/08/28  
+  √ 83/83 cases passed (68 ms)  
+  √ Your runtime beats 85.03 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (37.3 MB)
+
+### &#10004; [643] Maximum Average Subarray I
+
+>√ Accepted 2019/08/28  
+  √ 123/123 cases passed (1772 ms)  
+  √ Your runtime beats 10.43 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (45.8 MB)  
+
+### &#9083; [661] Image Smoother
+
+>2019/08/28  
+Doubt the test case.
+
+
