@@ -106,7 +106,7 @@ array | backtracking
 ### &#9083; [48] Rotate Image
 
 >2019/08/26  
-Difference result between local and test check
+Error: Different result between local and test check
 
 ### &#10008; [53] Maximum Subarray
 
@@ -374,13 +374,105 @@ Play with it later
   √ Your runtime beats 6.08 % of javascript submissions  
   √ Your memory usage beats 50 % of javascript submissions (33.9 MB)  
 
-### &#10004; [229] Majority Element II
+### &#10008; [229] Majority Element II
 
 >2019/08/27  
 
-### &#10004; [238] Product of Array Except Self
+### &#10008; [238] Product of Array Except Self
 
 >2019/08/27  
 Note: Please solve it without division and in O(n).  
 Could you solve it with constant space complexity? 
+
+### &#10008; [268] Missing Number
+
+>2019/08/28  
+array | math | bit-manipulation
+linear runtime complexity
+constant extra space complexity
+
+### &#10004; [283] Move Zeroes
+
+>√ Accepted 2019/08/28  
+  √ 21/21 cases passed (52 ms)  
+  √ Your runtime beats 98.64 % of javascript submissions  
+  √ Your memory usage beats 17.02 % of javascript submissions (36.3 MB)  
+
+### &#10008; [287] Find the Duplicate Number
+
+>2019/08/28  
+
+### &#9083; [289] Game of Life
+
+>2019/08/19  
+Error: Different result between local and test check
+
+### &#10008; [380] Insert Delete GetRandom O(1)
+
+>2019/08/28  
+
+### &#10008; [381] Insert Delete GetRandom O(1) - Duplicates allowed
+
+>2019/08/28  
+
+### &#10004; [414] Third Maximum Number
+
+>√ Accepted 2019/08/28  
+  √ 26/26 cases passed (56 ms)  
+  √ Your runtime beats 85.8 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (34.9 MB)  
+
+### &#10004; [442] Find All Duplicates in an Array
+
+>√ Accepted 2019/08/28  
+  √ 28/28 cases passed (3744 ms)  
+  √ Your runtime beats 7.24 % of javascript submissions  
+  √ Your memory usage beats 50 % of javascript submissions (45.7 MB)  
+
+### &#10004; [448] Find All Numbers Disappeared in an Array
+
+>√ Accepted 2019/08/28  
+  √ 34/34 cases passed (588 ms)  
+  √ Your runtime beats 15.01 % of javascript submissions  
+  √ Your memory usage beats 25 % of javascript submissions (44 MB)  
+
+### &#10004; [457] Circular Array Loop
+
+>√ Accepted 2019/08/28  
+  √ 42/42 cases passed (56 ms)  
+  √ Your runtime beats 72.9 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (34 MB)  
+
+### &#10004; [485] Max Consecutive Ones
+
+>√ Accepted 2019/08/28  
+  √ 41/41 cases passed (68 ms)  
+  √ Your runtime beats 54.06 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (36.8 MB)  
+
+### &#10004; [495] Teemo Attacking
+
+>√ Accepted 2019/08/28  
+  √ 39/39 cases passed (68 ms)  
+  √ Your runtime beats 39.17 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (38.1 MB)  
+
+### &#10004; [532] K-diff Pairs in an Array
+
+>√ Accepted 2019/08/28  
+  √ 72/72 cases passed (584 ms)  
+  √ Your runtime beats 13.33 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (54.9 MB)  
+
+### &#10008; [560] Subarray Sum Equals K
+
+>2019/08/28  
+array | hash-table
+
+### &#10004; [561] Array Partition I
+
+>√ Accepted 2019/08/28  
+  √ 81/81 cases passed (124 ms)  
+  √ Your runtime beats 33.42 % of javascript submissions  
+  √ Your memory usage beats 11.11 % of javascript submissions (40.1 MB)  
 
