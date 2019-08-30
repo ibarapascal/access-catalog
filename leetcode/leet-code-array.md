@@ -530,3 +530,58 @@ Doubt the test case.
 Doubt the test case.
 
 
+### &#10004; [665] Non-decreasing Array
+
+>√ Accepted 2019/08/30  
+  √ 325/325 cases passed (56 ms)  
+  √ Your runtime beats 96.83 % of javascript submissions  
+  √ Your memory usage beats 50 % of javascript submissions (39.6 MB)  
+
+### &#10004; [667] Beautiful Arrangement II
+
+>√ Accepted 2019/08/30  
+  √ 68/68 cases passed (68 ms)  
+  √ Your runtime beats 100 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (36.5 MB)  
+
+### &#10004; [670] Maximum Swap
+
+>√ Accepted 2019/08/30  
+  √ 111/111 cases passed (40 ms)  
+  √ Your runtime beats 100 % of javascript submissions  
+  √ Your memory usage beats 50 % of javascript submissions (33.9 MB)  
+
+### &#10004; [674] Longest Continuous Increasing Subsequence
+
+>√ Accepted 2019/08/30  
+  √ 36/36 cases passed (56 ms)  
+  √ Your runtime beats 69.62 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (35.3 MB)  
+
+### &#10008; [689] Maximum Sum of 3 Non-Overlapping Subarrays
+
+>2019/08/30  
+
+### &#10004; [695] Max Area of Island
+
+>√ Accepted 2019/08/30  
+  √ 726/726 cases passed (316 ms)  
+  √ Your runtime beats 5.07 % of javascript submissions  
+  √ Your memory usage beats 38.46 % of javascript submissions (41.7 MB)  
+
+### &#10004; [697] Degree of an Array
+
+>√ Accepted 2019/08/30  
+  √ 89/89 cases passed (860 ms)  
+  √ Your runtime beats 5.05 % of javascript submissions  
+  √ Your memory usage beats 100 % of javascript submissions (43.3 MB)  
+
+### &#10008; [713] Subarray Product Less Than K
+
+>2019/08/30  
+
+### &#10008; [714] Best Time to Buy and Sell Stock with Transaction Fee
+
+>2019/08/30  
+Play with it later
+
