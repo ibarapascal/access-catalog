@@ -2,37 +2,6 @@
 
 ## 1. Blog
 
-#### 1.1 Framework / Js / Ts
-
-- [react](https://github.com/ibarapascal/access-catalog/blob/master/blog/react.md)
-
-- [react-redux](https://github.com/ibarapascal/access-catalog/blob/master/blog/react-redux.md)
-
-- [react-material-ui](https://github.com/ibarapascal/access-catalog/blob/master/blog/react-material-ui.md)
-
-- [es6-javascript-typescript](https://github.com/ibarapascal/access-catalog/blob/master/blog/es6-javascript-typescript.md)
-
-- [ECMAScript-version-differences](https://github.com/ibarapascal/access-catalog/blob/master/blog/ECMAScript-version-differences.md)
-
-#### 1.2 Html / Css
-
-- [html-css](https://github.com/ibarapascal/access-catalog/blob/master/blog/html-css.md)
-
-#### 1.3 Others
-
-- [Mac OS](https://github.com/ibarapascal/access-catalog/blob/master/blog/mac-os.md)
-
-- [docker](https://github.com/ibarapascal/access-catalog/blob/master/blog/docker.md)
-
-- [git-operation](https://github.com/ibarapascal/access-catalog/blob/master/blog/git-operation.md)
-
-- [npm-node](https://github.com/ibarapascal/access-catalog/blob/master/blog/npm-node.md)
-
-- [env-setting-step](https://github.com/ibarapascal/access-catalog/blob/master/blog/env-setting-step.md)
-
-- [book-list](https://github.com/ibarapascal/access-catalog/blob/master/blog/book-list.md)
-
-
 ## 2. Tool
 
 - [online-tools](https://github.com/ibarapascal/access-catalog/blob/master/tool/online-tools.md)
