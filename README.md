@@ -1,35 +1,33 @@
-# Index
+# 
 
-## 1. Blog
+## Blog
 
-## 2. Tool
+### summary of react develop practice: [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md)
 
-- [online-tools](https://github.com/ibarapascal/access-catalog/blob/master/tool/online-tools.md)
+React + Typescript + Redux + Thunk  
+Material-UI + react-select + react-google-charts + etc  
+Micro-service + webpack + AWS (not participated much)  
 
-- [general-links](https://github.com/ibarapascal/access-catalog/blob/master/tool/general-links.md)
+period: 2019/10 - 2020/01 (4 months)
 
+### time-controller: [repo](https://github.com/ibarapascal/time-controller)
 
-## 3. Leetcode
+Angular8 + Ionic5, a self-use time management Android application.
+
+period: 2019/07-2019/08 (3 weeks)
+
+### digital-currency-auto-trading: [repo](https://github.com/ibarapascal/digital-currency-auto-trading)
+
+Python + MongoDB + huobipro API + AWS, btc autotrading implements.
+
+period: 2018/01-2018/03 (2 months)
+
+## Others
+
+- [general-links](https://github.com/ibarapascal/access-catalog/blob/master/tool/general-links.md)  
+
+- [ts-debug-in-vscode](https://github.com/ibarapascal/ts-debug-in-vscode): Typescript unit test & libs
 
 - [leet-code-google](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code-google.md)
 
 - [leet-code-array](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code-array.md)
-
-
-## 4. Repo
-
-#### 4.1 Playground / Libs
-
-- [ts-debug-in-vscode](https://github.com/ibarapascal/ts-debug-in-vscode): Typescript unit test & libs
-
-
-#### 4.2 Project
-
-- [time-controller](https://github.com/ibarapascal/time-controller): Angular8 + Ionic5, a self-use time management Android application.
-
-- [digital-currency-historical-data-s3](https://github.com/ibarapascal/digital-currency-historical-data-s3): Javascript, check basic trade info of digital currency during these years like BTC/USDT into local json for further usage.
-
-- [digital-currency-auto-trading](https://github.com/ibarapascal/digital-currency-auto-trading): Python + MongoDB + huobipro API + AWS, DCAT in 2018.
-
-
-
