@@ -1,4 +1,4 @@
-# Summary of react develop practice (unfinished: 2020/01/16)  
+# Summary of react develop practice (semifinished: 2020/01/21)  
 
 React + Typescript + Redux + Thunk  
 Material-UI + react-select + react-google-charts + etc  
@@ -44,6 +44,8 @@ core demand:
 
 - Make it easy to CURD during coding in our front-end project  
 
+![Picture of data flow](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-20-17-46-23.png)
+
 principles:  
 
 - Keep related files close, make them dense and their name easy to understand  
@@ -57,8 +59,6 @@ specific:
 - Define type files around each part of them  
 - Use domain file structure  
 
-![Picture of data flow](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-20-17-46-23.png)
-
 ![Picture of file structure](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-20-18-04-26.png)
 
 ### 2.4 Template of project demo and classic components  
@@ -67,11 +67,18 @@ Refering microsoft/frontend-bootcamp: [repo](https://github.com/microsoft/fronte
 
 Building classic react class component with typescript and Material-UI
 
-**Find more detail code [here](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md)**
+**Find more code [HERE](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md)**
+
+- [xxx-view.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#View)  
+- [xxx-actions.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#Actions)  
+- [reducer.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#Reducer)  
+- [store.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#Store)  
+- [xxx.d.ts](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#Types)  
+- [api.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#API)  
 
 ## 3. Coding notes  
 
-During learning react and real-world developments in the first 1.5 months, some notes were made [#1](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi.md), [#2](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-ii.md), [#3](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-iii.md), [#4](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-iv.md)  
+During learning react and real-world developments in the first 1.5 months, some notes were made [#_01](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi.md), [#_02](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-ii.md), [#_03](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-iii.md), [#_04](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-iv.md)  
 Organizing and merging those investigated content as below.  
 
 ### 3.1 React
@@ -88,7 +95,7 @@ ReactChild
 pure component / immutable needed?  
 => never optimize too early, it costs => more discussion  
 
-### 3.2 Typescript / Javascript  
+### 3.2 Typescript / Javascript: [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/typescript-summary.md)  
 
 naming / capitalization
 
@@ -96,19 +103,19 @@ String as object attributs' name
 
 Single source constants generate type  
 
-constant list summary [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/typescript-summary.md/#const-data-in-typescript)  
+constant list summary  
 
 Shallow-copy & deep-copy  
 
-Array operation summary [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/typescript-summary.md/#js-array)  
+Array operation summary  
 
-Object operation summary [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/typescript-summary.md/#js-object)  
+Object operation summary  
 
 ### 3.3 Events  
 
-debounce  
+debounce: TODO: specific  
 
-validation  
+validation: TODO: specific  
 
 optimization  
 
@@ -136,7 +143,7 @@ core method:
 
 ### 4.1 Steps  
 
-![Picture: classic V-style dev method](https://en.wikipedia.org/wiki/V-Model_(software_development)#/media/File:Systems_Engineering_Process_II.svg)
+![Picture: classic V-style dev method](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/2880px-Systems-Engineering-Process-II.svg.png)
 
 V-model VS fast iteration: which is better: summary in real practice.  
 
