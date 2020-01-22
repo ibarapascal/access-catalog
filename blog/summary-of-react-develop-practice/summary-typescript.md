@@ -44,7 +44,7 @@ console.log((item as any)['a']);
 
 If we want to specific type definition in bracket-notation, we may need some implements kind of like below.  
 
-### const-data-in-ts  
+### const-data-in-typescript  
 
 What we want to do: generate type definition from single source constant  
 
@@ -130,7 +130,7 @@ In specific practice
 - Generate init array with 0, 0, 0 and 1, 2, 3  
 - Compare two array  
 
-### js-obejct  
+### js-object  
 
 In specific practice  
 

@@ -53,7 +53,6 @@ handleMetricsOnBlur = (inspection: InspectionUnit) => (event: React.FocusEvent<H
   if (event.target.value !== this.props.inputStoreLocalStorage.cacheInputValue) {
     this.refreshFlowSimulation(inspection);
   }
-  this.props.storeLocalStorageInput({item: 'cacheInputValue', value: ''});
 }
 <NumberFormat
   id={elementId}
@@ -77,8 +76,6 @@ We can share handler function by passing different params to it.
 handleStoreInput = (field: string) => (event: React.ChangeEvent<HTMLInputElement>, id: ValidationItems) => {
   const payload: InputAction = {item: field, value: event.target.value};
   this.props.storePlan(payload);
-  ValidationService.updateTouchedStatus(this.props, id);
-  ValidationService.updateValidStatus(this.props, event.target.value, id);
 };
 
 <Grid item xs={4} className={classes.inputZone}>
@@ -102,7 +99,7 @@ handleStoreInput = (field: string) => (event: React.ChangeEvent<HTMLInputElement
     />
   </CMInputZone>
 </Grid>
-...
+// ... more similar input text fields
 ```
 
 ### lifecycle

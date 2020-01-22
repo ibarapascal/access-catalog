@@ -1,4 +1,4 @@
-# Summary of react develop practice (semifinished: 2020/01/21)  
+# Summary of react develop practice (semifinished: 2020/01/22)  
 
 React + Typescript + Redux + Thunk  
 Material-UI + react-select + react-google-charts + etc  

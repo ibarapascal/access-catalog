@@ -64,15 +64,15 @@ debounceGetClientList = debounce((value: string) => {
 
 **What we want:**  
 For user input elements like input text and multi-selection, once inputed / click `next page` button, check input element / all validated elements whether is valid, if not, showing warnings separately.  
-For default empty elements, valid after touched and value changed.  
+For default empty elements, valid after value changed.  
 Define validation element info (type of validation) in one place.  
 
-**How we design:**  
+**How we analyze:**  
 Perhaps we need both `valid info list` and `touched info list`,  
-Only showing error message once touched.  
+Only show the error message once touched.  
 Click `next page` button let all elements (which with validator) touched.  
 Default valid status needed so regist when mount.  
-Value change (rather than onFocus or onBlur) update the touched status.  
+Value change (rather than onFocus or onBlur) update the touched & valid status.  
 
 **How we implement:**  
 In a classic input element component, we arrange validation events like bellow.  
@@ -135,7 +135,7 @@ handleStoreInput = (field: string) => (event: React.ChangeEvent<HTMLInputElement
   VS.updateValidStatus(this.props, event.target.value, id);
 };
 
-// No more customize implements needed
+// No more customizing implements needed
 <Grid item xs={4} className={classes.inputZone}>
   <CMInputZone label='プラン名称' necessary={true}>
     <CMInputText
@@ -204,12 +204,14 @@ export class ValidationService {
    * @param method
    */
   static validator(value: string | number, method: Array<ValidationMethod>): string {
+    // `isFilled` validator
     if (method.includes('isFilled') && (value === '' || value === 0)) {
       return 'Input cannot be empty';
+    // `isNumber` validator
     } else if (method.includes('isNumber') && !/^\d+(\.\d{1,2})?$/.test(value.toString())) {
       return 'Invalid number';
+    // ... can be expanded with priority (or not)
     } else {
-      // ...
       return '';
     }
   }
@@ -230,23 +232,15 @@ export class ValidationService {
     return props.inputStoreLocalStorage.inValidMessageList.length > 0;
   }
   /**
-   * Get validator method from constant
-   * @param id page input item id
-   */
-  static acquireValidationMethod(id: ValidationItems): any {
-    const item = CommonConstant.VALIDATION_LIST_ALL.find(x => x.id === id);
-    return item ? item.method : undefined;
-  }
-  /**
    * Update stored validation status for page input item
    * @param props
    * @param value
    * @param id
    */
   static updateValidStatus(props: PropsForUpdate, value: string | number, id: ValidationItems) {
-    const method = ValidationService.acquireValidationMethod(id);
-    if (method) {
-      const validResult = ValidationService.validator(value, method);
+    const item = Constant.VALIDATION_LIST_ALL.find(x => x.id === id);
+    if (item) {
+      const validResult = ValidationService.validator(value, item.method);
       let list: Array<string> = props.inputStoreLocalStorage.inValidMessageList.slice();
       const result = validResult === ''
         ? list.filter(x => !x.includes(id))
@@ -266,7 +260,6 @@ export class ValidationService {
     }
   }
 }
-
 ```
 
 ### optimization
