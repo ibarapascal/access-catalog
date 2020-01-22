@@ -10,27 +10,30 @@ Period: 2019/10 - 2020/01 (4 months)
 
 ### 1.1 chrome extensions  
 
-- redux-devtools: [extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en), [repo](https://github.com/zalmoxisus/redux-devtools-extension)
-
-- json-formatter: [extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en), [repo](https://github.com/callumlocke/json-formatter)
-
-- octotree: [extension](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en), [repo](https://github.com/ovity/octotree)
+- redux-devtools: [extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en), [repo](https://github.com/zalmoxisus/redux-devtools-extension)  
+- json-formatter: [extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en), [repo](https://github.com/callumlocke/json-formatter): auto format json  
+- octotree: [extension](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en), [repo](https://github.com/ovity/octotree): side-bar file-tree visulization on github.com  
 
 ### 1.2 npm packages
 
-- depcheck: [npm](https://www.npmjs.com/package/depcheck), [repo](https://github.com/depcheck/depcheck)
-
-- json-server: [npm](https://www.npmjs.com/package/json-server), [repo](https://github.com/typicode/json-server)
-
-- gource: [repo](https://github.com/acaudwell/Gource), [install gource on Mac](http://macappstore.org/gource/)
+- depcheck: [npm](https://www.npmjs.com/package/depcheck), [repo](https://github.com/depcheck/depcheck): dependicies checker  
+- json-server: [npm](https://www.npmjs.com/package/json-server), [repo](https://github.com/typicode/json-server): simple local temp server  
+- gource: [repo](https://github.com/acaudwell/Gource), [install on Mac](http://macappstore.org/gource/): amazing project files visualizer  
 
 ### 1.3 online tools  
 
-- code-sand-box: [quick start: react + ts](https://codesandbox.io/s/nice-khayyam-zlg68)
+- code-sand-box: [quick start: react + ts](https://codesandbox.io/s/nice-khayyam-zlg68)  
+- markdown: [quick try](https://www.makeareadme.com/)  
 
-- markdown: [quick try](https://www.makeareadme.com/)
+### 1.4 vs-code extensions  
 
-### [1.4 more](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/other-dev-tools.md)  
+- ESLint  
+- Git Graph: watch branches and git flow, quick checkout  
+- GitLens: powerful tool comparing different head, showing the author and diff  
+- Auto Comment Blocks  
+- markdownlint  
+
+### [1.5 more dev tools](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/other-dev-tools.md)  
 
 ## 2. Framework / file structure / template files  
 
@@ -146,17 +149,17 @@ Backlog and task management: Adjust task and schedule based on user operation an
 
 How to get / check the latest tech info:  
 
-- zhihu  
-- [Tech radar](https://www.thoughtworks.com/radar/techniques)  
-- Trends: [google](https://trends.google.com/trends/explore?cat=13&date=today%205-y&q=react,angular,vue,flutter),  [npm](https://www.npmtrends.com/react-vs-@angular/core-vs-vue),  [stack-overflow](https://insights.stackoverflow.com/trends?tags=reactjs%2Cangular%2Cvue.js)  
-- [Stack Overflow’s 2019 Developer Survey](https://insights.stackoverflow.com/survey/2019/#most-popular-technologies)  
-- [Frontend framework popularity](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190#file-frontendframeworkspopularity-md)  
+- zhihu: cs articles  
+- [Tech radar](https://www.thoughtworks.com/radar/techniques): tracing latest recommended tech  
+- Trends: [google](https://trends.google.com/trends/explore?cat=13&date=today%205-y&q=react,angular,vue,flutter),  [npm](https://www.npmtrends.com/react-vs-@angular/core-vs-vue),  [stack-overflow](https://insights.stackoverflow.com/trends?tags=reactjs%2Cangular%2Cvue.js%2Cangularjs%2Cjquery)  
+- [Stack Overflow’s 2019 Developer Survey](https://insights.stackoverflow.com/survey/2019/#most-popular-technologies): lot's of interesting statistic data  
+- [Frontend framework popularity](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190#file-frontendframeworkspopularity-md): amazing investigation  
 
 Progress management:  
 
 - backlog  
 - scrum  
-- burndown
+- burndown  
 
 Template document for front-end:  
 
@@ -178,32 +181,32 @@ Template document for front-end:
 
 ### 5.1 Input  
 
-- react-select: [npm](https://www.npmjs.com/package/react-select), [repo](https://github.com/jedwatson/react-select), [docs](https://react-select.com/home)
-
-- react-number-format: [npm](https://www.npmjs.com/package/react-number-format), [repo](https://github.com/s-yadav/react-number-format#readme)
-
-- react-datepicker: [npm](https://www.npmjs.com/package/react-datepicker), [repo](https://github.com/Hacker0x01/react-datepicker)
+- react-select: [npm](https://www.npmjs.com/package/react-select), [repo](https://github.com/jedwatson/react-select), [docs](https://react-select.com/home): multi-selection, custom-styles  
+- react-number-format: [npm](https://www.npmjs.com/package/react-number-format), [repo](https://github.com/s-yadav/react-number-format#readme): number with prefix / suffix / thousandSeparator  
+- react-datepicker: [npm](https://www.npmjs.com/package/react-datepicker), [repo](https://github.com/Hacker0x01/react-datepicker): enable date range pick with localization  
 
 ### 5.2 Output  
 
-- react-google-charts: [npm](https://www.npmjs.com/package/react-google-charts), [repo](https://github.com/RakanNimer/react-google-charts)
+- react-google-charts: [npm](https://www.npmjs.com/package/react-google-charts), [repo](https://github.com/RakanNimer/react-google-charts): custom events onMouseOver  
+- react-plotly: [npm](https://www.npmjs.com/package/react-plotly.js), [repo](https://github.com/plotly/react-plotly.js#readme), [docs](https://plot.ly/javascript/react/): amazing 3d plotting ability  
 
-- react-plotly: [npm](https://www.npmjs.com/package/react-plotly.js), [repo](https://github.com/plotly/react-plotly.js#readme), [docs](https://plot.ly/javascript/react/)
+### 5.3 Others  
 
-### 5.3 Others
+- react-router-dom: [npm](https://www.npmjs.com/package/react-router-dom), [repo](https://github.com/ReactTraining/react-router#readme): most used router libs  
 
-- react-router-dom: [npm](https://www.npmjs.com/package/react-router-dom), [repo](https://github.com/ReactTraining/react-router#readme)
-
-## 6. Further investigation directions  
+## 6. Further directions  
 
 ### 6.1 Storybook / react-styleguidist  
 
-storybook: [npm](https://www.npmjs.com/package/@storybook/react)  
-
-react-styleguidist: [repo](https://github.com/styleguidist/react-styleguidist), [docs](https://react-styleguidist.js.org/docs/documenting.html), [sample output](https://react-styleguidist.js.org/examples/basic/#button), [code for sample](https://github.com/styleguidist/react-styleguidist/blob/master/examples/basic/src/components/Button/Button.js)
+- storybook: [npm](https://www.npmjs.com/package/@storybook/react): visual component test  
+- react-styleguidist: [repo](https://github.com/styleguidist/react-styleguidist), [docs](https://react-styleguidist.js.org/docs/documenting.html), [sample output](https://react-styleguidist.js.org/examples/basic/#button), [code for sample](https://github.com/styleguidist/react-styleguidist/blob/master/examples/basic/src/components/Button/Button.js): demo / document maker  
 
 ### 6.2 Webpack with docker, AWS CI/CD template  
 
 ### 6.3 Eslint settings best practice for team dev (ex: Ant)  
 
 eslint-config-alloy: [repo](https://github.com/AlloyTeam/eslint-config-alloy)  
+
+### 6.4 Auto start cli tools dev / summary  
+
+automatic tools for webpack / cli / eslint / CI/CD settings  
