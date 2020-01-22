@@ -104,7 +104,7 @@ handleStoreInput = (field: string) => (event: React.ChangeEvent<HTMLInputElement
 
 ### lifecycle
 
-![react-lifecycle-methods-diagram](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-22-7-47-15.png)
+![react-lifecycle-methods-diagram](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot-react-lifecycle.png)
 
 refer to [link](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)  
 

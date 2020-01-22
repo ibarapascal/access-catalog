@@ -1,7 +1,7 @@
-# Summary of react develop practice (semifinished: 2020/01/22)  
+# Summary of react develop practice  
 
 React + Typescript + Redux + Thunk  
-Material-UI + react-select + react-google-charts + etc  
+Material-UI + react-select + etc  
 Micro-service + webpack + AWS (not participated much)  
 
 Period: 2019/10 - 2020/01 (4 months)
@@ -30,7 +30,7 @@ Period: 2019/10 - 2020/01 (4 months)
 
 - markdown: [quick try](https://www.makeareadme.com/)
 
-### [1.4 others](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/other-dev-tools.md)  
+### [1.4 more](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/other-dev-tools.md)  
 
 ## 2. Framework / file structure / template files  
 
@@ -44,7 +44,7 @@ core demand:
 
 - Make it easy to CURD during coding in our front-end project  
 
-![Picture of data flow](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-20-17-46-23.png)
+![Picture of data flow](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot-data-flow.png)
 
 principles:  
 
@@ -59,7 +59,7 @@ specific:
 - Define type files around each part of them  
 - Use domain file structure  
 
-![Picture of file structure](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-20-18-04-26.png)
+![Picture of file structure](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot-file-structure.png)
 
 ### 2.4 Template of project demo and classic components  
 
@@ -101,10 +101,9 @@ Organizing and merging those investigated content as below.
 
 - [debounce](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#debounce)  
 - [validation](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#validation)  
-- optimization  
-- keyboad event listening  
-- api error handling with redux  
-- using devTools  
+- [optimization](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#optimization)  
+- [keyboard event listening](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#keyboard-event-listening)  
+- [api error handling with redux](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#api-error-handling-with-redux)  
 
 ### 3.4 Styles (with third libs)
 
@@ -127,7 +126,7 @@ V-model VS fast iteration: which is better: summary in real practice.
 
 Front-end before dev: fix demand document, fix API implement, then start front-end design / document making  
 
-![Picture: something what I think must be done before starting frong-end implements](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot2020-01-21-11-07-56.png)
+![Picture: something what I think must be done before starting frong-end implements](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/design-step.png)
 
 Front-end dev: start with API type definition and static UI component  
 Add UX events, data bindings and UI small adjustment later  
@@ -149,7 +148,9 @@ How to get / check the latest tech info:
 
 - zhihu  
 - [Tech radar](https://www.thoughtworks.com/radar/techniques)  
-- Trends: [google-trends](https://trends.google.com/trends/explore?cat=13&date=today%205-y&q=react,angular,vue,flutter),  [npm-trends](https://www.npmtrends.com/react-vs-@angular/core-vs-vue),  [stack-overflow-trends](https://insights.stackoverflow.com/trends?tags=reactjs%2Cangular%2Cvue.js)  
+- Trends: [google](https://trends.google.com/trends/explore?cat=13&date=today%205-y&q=react,angular,vue,flutter),  [npm](https://www.npmtrends.com/react-vs-@angular/core-vs-vue),  [stack-overflow](https://insights.stackoverflow.com/trends?tags=reactjs%2Cangular%2Cvue.js)  
+- [Stack Overflow’s 2019 Developer Survey](https://insights.stackoverflow.com/survey/2019/#most-popular-technologies)  
+- [Frontend framework popularity](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190#file-frontendframeworkspopularity-md)  
 
 Progress management:  
 
@@ -159,12 +160,12 @@ Progress management:
 
 Template document for front-end:  
 
-- Demand definition  
-- Page routing  
-- Styles document  
-- UI 画面レイアウト定義書  
-- Page items 画面項目定義書  
-- Events 画面イベント定義書  
+- Demand definition - 詳細設計書  
+- Page routing - 画面遷移定義書  
+- Styles - 画面共通仕様定義書  
+- UI - 画面レイアウト定義書  
+- Page items - 画面項目定義書  
+- Events - 画面イベント定義書  
 
 [Template of git flow](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-git-flow.md)  
 

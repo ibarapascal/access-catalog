@@ -5,9 +5,8 @@
 - [debounce](#debounce)  
 - [validation](#validation)  
 - [optimization](#optimization)  
-- [keyboad event listening](#keyboad-event-listening)  
+- [keyboard event listening](#keyboard-event-listening)  
 - [api error handling with redux](#api-error-handling-with-redux)  
-- [using devTools](#using-devTools)
 
 ### debounce
 
@@ -264,8 +263,60 @@ export class ValidationService {
 
 ### optimization
 
-### keyboad-event-listening
+Check performance loss in chrome developer tools `performance`. => [How to use chrome performance analysis tool](https://calibreapp.com/blog/react-performance-profiling-optimization/)  
+
+Refer to react document [optimizing-performance](https://reactjs.org/docs/optimizing-performance.html)  
+
+**Basically** by arranging component, props and data-flow properly, most of the performance issues should be handled.  
+
+As a last resort: use shouldComponentUpdate  
+
+```tsx
+// If props.flowTargets is refreshing, do not update / re rendering component
+// For example, for immutable OrderedMap, we can use items.size to compare => test passed
+// Notice not forget to check if it has any other side-effects
+shouldComponentUpdate(nextProps: Props, nextState: State) {
+  return this.props.flowTargets.items.size === nextProps.flowTargets.items.size;
+}
+```
+
+**Effect**:  
+
+![optimization-effect-chart](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot-optimization.png)
+
+### keyboard-event-listening
+
+Notice: use `ref` only for keyboard events is not recommended. Refer to document [refs-and-the-dom](https://reactjs.org/docs/refs-and-the-dom.html#dont-overuse-refs), and other articles.  
+
+Example:  
+Press `Enter` save the input value as well as blur.  
+
+How we implement:  
+
+```tsx
+// Event handler
+handleKeydownEvent = () => (event: React.KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>, id: string) => {
+  if (event.keyCode === 13) { // key `Enter`
+    const element = document.getElementById(id);
+    if (element && id === 'input_id_01') {
+      element.blur();
+      // ... other events
+    }
+  }
+}
+// Element
+<CMInputText
+  id='input_id_01'
+  label="input field name"
+  value={inputSearchLabel}
+  onChange={this.onInputLabel}
+  customProps={{
+    onKeyDown: this.handleKeydownEvent(),
+    fullWidth: true,
+  }}
+/>
+```
 
 ### api-error-handling-with-redux
 
-### using-devTools
+Code refer to template [here](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md)
