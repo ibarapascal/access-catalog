@@ -113,9 +113,9 @@ Organizing and merging those investigated content as below.
 - Inherite  
 - common styles  
 
-## 4. Backlog of work flow / design pattern  
+## 4. Work flow / design pattern  
 
-core method:
+guideline:
 
 - data-driven development & UI oriented implement  
 
@@ -145,6 +145,12 @@ Backlog and task management: Adjust task and schedule based on user operation an
 
 ### 4.3 Appendix
 
+How to get / check the latest tech info:  
+
+- zhihu  
+- [Tech radar](https://www.thoughtworks.com/radar/techniques)  
+- Trends: [google-trends](https://trends.google.com/trends/explore?cat=13&date=today%205-y&q=react,angular,vue,flutter),  [npm-trends](https://www.npmtrends.com/react-vs-@angular/core-vs-vue),  [stack-overflow-trends](https://insights.stackoverflow.com/trends?tags=reactjs%2Cangular%2Cvue.js)  
+
 Progress management:  
 
 - backlog  
@@ -153,14 +159,14 @@ Progress management:
 
 Template document for front-end:  
 
-- Core demand  
+- Demand definition  
 - Page routing  
 - Styles document  
 - UI 画面レイアウト定義書  
 - Page items 画面項目定義書  
 - Events 画面イベント定義書  
 
-Template of git flow:  
+[Template of git flow](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-git-flow.md)  
 
 - template of PR  
 - guideline of commit message  
@@ -187,10 +193,16 @@ Template of git flow:
 
 - react-router-dom: [npm](https://www.npmjs.com/package/react-router-dom), [repo](https://github.com/ReactTraining/react-router#readme)
 
-## 6. Something which need further investigation  
+## 6. Further investigation directions  
 
-### 6.1 Eslint settings best practice (ex: Ant)  
+### 6.1 Storybook / react-styleguidist  
+
+storybook: [npm](https://www.npmjs.com/package/@storybook/react)  
+
+react-styleguidist: [repo](https://github.com/styleguidist/react-styleguidist), [docs](https://react-styleguidist.js.org/docs/documenting.html), [sample output](https://react-styleguidist.js.org/examples/basic/#button), [code for sample](https://github.com/styleguidist/react-styleguidist/blob/master/examples/basic/src/components/Button/Button.js)
 
 ### 6.2 Webpack with docker, AWS CI/CD template  
 
-### 6.3 Test libs (ex: Jtest)  
+### 6.3 Eslint settings best practice for team dev (ex: Ant)  
+
+eslint-config-alloy: [repo](https://github.com/AlloyTeam/eslint-config-alloy)  

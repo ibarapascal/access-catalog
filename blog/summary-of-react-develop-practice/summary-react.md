@@ -26,7 +26,7 @@ Refer details in document of [handling-events](https://en.reactjs.org/docs/handl
 
 If you don't add `()` behind `this.handleClick`, you need to bind `this` in your constructor, otherwise you may want to use the next two method:
 
-A.**public class field syntax** (which is enabled by default in [Create React App](https://reactjs.org/docs/create-a-new-react-app.html))  
+**A. public class field syntax** (which is enabled by default in [Create React App](https://reactjs.org/docs/create-a-new-react-app.html))  
 
 ```tsx
 handleClick = () => {
@@ -36,18 +36,18 @@ handleClick = () => {
 <button onClick={this.handleClick}>
 ```
 
-B.**arrow funcitons** (which may cause performance problems and is not recommended)
+**B. arrow funcitons** (which may cause performance problems and is not recommended)
 
 ```tsx
 // The same on event handling but different in:
-<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button> // automatically forwarded, implicit, 隐式传递
+<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button> // automatically forwarded, implicitly, 隐式传递
 <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button> // explicitly, 显式传递
 ```
 
 Basically in our practice, we use `public class field syntax` with params which would look like below:  
 
 ```tsx
-// No need to bind this in constructor
+// No need to bind `this` in constructor
 // Receiving params passed by elements as well as getting events of it
 handleMetricsOnBlur = (inspection: InspectionUnit) => (event: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => {
   if (event.target.value !== this.props.inputStoreLocalStorage.cacheInputValue) {
@@ -141,7 +141,9 @@ Example usage:
 We use it in our practice to reactivly pass props to template component's child.  
 
 ```tsx
-// Usage
+/**
+ * Usage
+ */
 <CMCollapseTable
   title={'Targeting'}
   PayloadHeader={
@@ -154,7 +156,9 @@ We use it in our practice to reactivly pass props to template component's child.
 ```
 
 ```tsx
-// CMCollapseTable component
+/**
+ * CMCollapseTable component
+ */
 // Notice there are multiple belowing elements
 <CMCollapseItems>
   {React.cloneElement(PayloadData, { // Set the payloadProps for each elements with identification info
@@ -171,7 +175,9 @@ We use it in our practice to reactivly pass props to template component's child.
 ```
 
 ```tsx
-// FLTargetingTableData component
+/**
+ * FLTargetingTableData component
+ */
 interface Props extends WithStyles<typeof styles> {
   payloadProps: PayloadProps, // We can acquire the payloadProps implicitly
   ...
