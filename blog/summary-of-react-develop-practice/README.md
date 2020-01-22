@@ -30,13 +30,13 @@ Period: 2019/10 - 2020/01 (4 months)
 
 - markdown: [quick try](https://www.makeareadme.com/)
 
-### 1.4 [others](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/other-dev-tools.md)  
+### [1.4 others](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/other-dev-tools.md)  
 
 ## 2. Framework / file structure / template files  
 
-### 2.1 [Use Typescript in React](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/go-to-typescript-react.md)
+### [2.1 Use Typescript in React](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/go-to-typescript-react.md)
 
-### 2.2 [Use Domain Style in front-end project](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/go-to-domain-style-file-structure.md)
+### [2.2 Use Domain Style in front-end project](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/go-to-domain-style-file-structure.md)
 
 ### 2.3 Data flow analysis
 
@@ -67,7 +67,7 @@ Refering microsoft/frontend-bootcamp: [repo](https://github.com/microsoft/fronte
 
 Building classic react class component with typescript and Material-UI
 
-**Find more code [HERE](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md)**
+**Find more code [here](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md)**
 
 - [xxx-view.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#View)  
 - [xxx-actions.tsx](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/template-of-react-code.md/#Actions)  
@@ -81,59 +81,37 @@ Building classic react class component with typescript and Material-UI
 During learning react and real-world developments in the first 1.5 months, some notes were made [#_01](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi.md), [#_02](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-ii.md), [#_03](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-iii.md), [#_04](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/refs/Summary-practices-of-react-ts-in-easi-iv.md)  
 Organizing and merging those investigated content as below.  
 
-### 3.1 React
+### [3.1 React](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-react.md)
 
-function binding in details  
+- [function binding in details](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-react.md/#function-binding-in-details)  
+- [lifecycle](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-react.md/#lifecycle)  
+- [react api](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-react.md/#react-api)  
+- [pure component and immutable](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-react.md/#pure-components-and-immutable)  
 
-life-cycle  
+### [3.2 Typescript / Javascript](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-typescript.md)  
 
-ReactChild  
+- [capitalization](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-typescript.md/#capitalization)  
+- [bracket notation and dot notation](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-typescript.md/#bracket-notation-and-dot-notation)
+- [const data in ts](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-typescript.md/#const-data-in-typescript)  
+- js-array  
+- js-object  
+- shallow-copy-and-deep-copy  
 
-- usage  
-- path with props  
+### [3.3 Events](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md)  
 
-pure component / immutable needed?  
-=> never optimize too early, it costs => more discussion  
-
-### 3.2 Typescript / Javascript: [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/typescript-summary.md)  
-
-naming / capitalization
-
-String as object attributs' name  
-
-Single source constants generate type  
-
-constant list summary  
-
-Shallow-copy & deep-copy  
-
-Array operation summary  
-
-Object operation summary  
-
-### 3.3 Events  
-
-debounce: TODO: specific  
-
-validation: TODO: specific  
-
-optimization  
-
-keyboad event listener with onBlur / onFocus  
-
-error handling  
-
-using devTools  
+- [debounce](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#debounce)  
+- [validation](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/summary-events.md/#validation)  
+- optimization  
+- keyboad event listening  
+- api error handling with redux  
+- using devTools  
 
 ### 3.4 Styles (with third libs)
 
-HOC (example: withStyle)  
-
-inline styles vs classes  
-
-Inherite  
-
-common styles  
+- HOC (example: withStyle)  
+- inline styles vs classes  
+- Inherite  
+- common styles  
 
 ## 4. Backlog of work flow / design pattern  
 
