@@ -129,7 +129,7 @@ V-model VS fast iteration: which is better: summary in real practice.
 
 Front-end before dev: fix demand document, fix API implement, then start front-end design / document making  
 
-![Picture: something what I think must be done before starting frong-end implements](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/design-step.png)
+![Picture: something what I think must be done before starting frong-end implements](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/assets/screenshot-design-step.png)
 
 Front-end dev: start with API type definition and static UI component  
 Add UX events, data bindings and UI small adjustment later  
