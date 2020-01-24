@@ -22,6 +22,10 @@ Python + MongoDB + huobipro API + AWS, btc autotrading implements.
 
 period: 2018/01-2018/03 (2 months)
 
+## Next  
+
+[TODO List in 2020/01/24](https://github.com/ibarapascal/access-catalog/blob/master/todo-list.md#2020-01-24)
+
 ## Others
 
 - [general-links](https://github.com/ibarapascal/access-catalog/blob/master/tool/general-links.md)  
