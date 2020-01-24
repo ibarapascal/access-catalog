@@ -181,7 +181,7 @@ export class Constant {
 
 const itemList = Constant.VALIDATION_LIST_ALL.map(x => x.id);
 export type ValidationItems = typeof itemList[number]; // 'FLP_INPUT_01' | 'FLP_INPUT_02' | 'FLP_SELECT_01' | 'ES_SELECT_01'
-const methodList = [...Constant.VALIDATION_LIST_ALL.map(x => x.method)][0];
+const methodList = Constant.VALIDATION_LIST_ALL.map(x => x.method)[0];
 export type ValidationMethod = typeof methodList[number]; // 'isFilled' | 'isNumber'
 ```
 
