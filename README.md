@@ -2,6 +2,13 @@
 
 ## Blog
 
+### epicenter-viewer: [repo](https://github.com/ibarapascal/epicenter-viewer)  
+
+React + Typescript + Redux + Thunk  
+Material-UI + react-select + plotly.js/react-plotly.js  
+
+period: 2020/01 -  
+
 ### summary of react develop practice: [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md)
 
 React + Typescript + Redux + Thunk  
