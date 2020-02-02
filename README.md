@@ -1,13 +1,12 @@
 # 
 
-## Blog
+## Blog  
 
-### epicenter-viewer: [repo](https://github.com/ibarapascal/epicenter-viewer)  
+### netbooks: [repo](https://github.com/ibarapascal/netbooks)
 
-React + Typescript + Redux + Thunk  
-Material-UI + react-select + plotly.js/react-plotly.js  
+React + Typescript + Redux + Material-UI + Styleguidist, practice of the summary below.  
 
-period: 2020/01 -  
+peroid: 2020/01/31 - 2020/02/02 (3 days)  
 
 ### summary of react develop practice: [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md)
 
