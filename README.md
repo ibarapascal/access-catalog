@@ -2,23 +2,36 @@
 
 ## Index
 
-Timeline content link list from recent to past
+Legend
 
-Web: [epicenter-view](#epicenter-view)  
-Data: [data-epicenter-jp](#data-epicenter-jp)  
-Web: Dentsu project #3  
-Web: Dentsu project #2  
-Web: [netweather](#netweather)  
-Web: [netbooks](#netbooks)  
-Package: [react-debounce-rendering](#react-debounce-rendering)  
-Note: [summary-of-react-develop-practice](#summary-of-react-develop-practice)  
-Web: Dentsu project #1  
-Mobile: [time-controller](#time-controller)  
-Data: [digital-currency-historical-data-s3](#digital-currency-historical-data-s3)  
-Web: Ryohin project #1  
-Web: Hitachi project #1  
-Data: [digital-currency-auto-trading](#digital-currency-auto-trading)  
-Mobile: Nomura project #1
+| Icon | Meaning |
+|------|---------|
+| 🌐 | Web Application |
+| 📞 | Mobile Application |
+| 📚 | Data Processing |
+| ✒️ | Blog & Note |
+| 📦 | Packages |
+| 🔒 | Private  |
+
+### Timeline content link list from recent to past
+
+| Repo & Content | Type | Date |
+|------|------|--|
+| [epicenter-view](#epicenter-view) | 🌐 | 2020/5 |
+| [data-epicenter-jp](#data-epicenter-jp) | 📚 | 2020/5 |
+| Dentsu project #3 | 🌐🔒 | 2020/4 |
+| Dentsu project #2 | 🌐🔒 | 2020/3 |
+| [netweather](#netweather) | 🌐 | 2020/2 |
+| [netbooks](#netbooks) | 🌐 | 2020/1 |
+| [react-debounce-rendering](#react-debounce-rendering) | 📦 | 2020/1 |
+| [summary-of-react-dev](#summary-of-react-develop-practice) | ✒️ | 2020/1 |
+| Dentsu project #1 | 🌐🔒 | 2019/10 |
+| [time-controller](#time-controller) | 📞 | 2019/8 |
+| [data-digital-currency](#digital-currency-historical-data-s3) | 📚 | 2019/7 |
+| Ryohin project #1 | 🌐🔒 | 2019/5 |
+| Hitachi project #1 | 🌐🔒 | 2018/7  |
+| [digital-currency-auto-trading](#digital-currency-auto-trading) | 📚 | 2018/1 |
+| Nomura project #1 | 📞🔒 | 2017/11 |
 
 ## Public Content
 
