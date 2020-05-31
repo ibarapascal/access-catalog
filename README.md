@@ -1,43 +1,78 @@
-# 
+# Content
 
-## Blog  
+## Index
 
-### netbooks: [repo](https://github.com/ibarapascal/netbooks)
+Timeline content link list from recent to past
 
-React + Typescript + Redux + Material-UI + Styleguidist, practice of the summary below.  
+Web: [epicenter-view](#epicenter-view)  
+Data: [data-epicenter-jp](#data-epicenter-jp)  
+Web: Dentsu project #3  
+Web: Dentsu project #2  
+Web: [netweather](#netweather)  
+Web: [netbooks](#netbooks)  
+Package: [react-debounce-rendering](#react-debounce-rendering)  
+Note: [summary-of-react-develop-practice](#summary-of-react-develop-practice)  
+Web: Dentsu project #1  
+Mobile: [time-controller](#time-controller)  
+Data: [digital-currency-historical-data-s3](#digital-currency-historical-data-s3)  
+Web: Ryohin project #1  
+Web: Hitachi project #1  
+Data: [digital-currency-auto-trading](#digital-currency-auto-trading)  
+Mobile: Nomura project #1
 
-peroid: 2020/01/31 - 2020/02/02 (3 days)  
+## Public Content
 
-### summary of react develop practice: [link](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md)
+### [epicenter-view](https://github.com/ibarapascal/epicenter-view)
 
-React + Typescript + Redux + Thunk  
-Material-UI + react-select + react-google-charts + etc  
-Micro-service + webpack + AWS (not participated much)  
+Date: 2020/05  
+Description: A web application visualizing seismic epicenter data.  
+Keywords: ArcGIS JS API, HTML  
+Links: <https://ibarapascal.github.io/epicenter-view/>
 
-period: 2019/10 - 2020/01 (4 months)
+### [data-epicenter-jp](https://github.com/ibarapascal/data-epicenter-jp)
 
-### time-controller: [repo](https://github.com/ibarapascal/time-controller)
+Date: 2020/05  
+Description: JS scripts to format Japan's official seismic epicenter data to CSV, JSON.  
+Keywords: Javascript, CSV, JSON, Japan Meteorological Agency.  
+Links: <https://github.com/ibarapascal/data-epicenter-jp#3-scripts/>
 
-Angular8 + Ionic5, a self-use time management Android application.
+### [netweather](https://github.com/ibarapascal/netweather)
 
-period: 2019/07-2019/08 (3 weeks)
+Date: 2020/02  
+Description: A web application showing weather forecast info.  
+Keywords: React, TypeScript, Material-UI, Redux.  
 
-### digital-currency-auto-trading: [repo](https://github.com/ibarapascal/digital-currency-auto-trading)
+### [netbooks](https://github.com/ibarapascal/netbooks)
 
-Python + MongoDB + huobipro API + AWS, btc autotrading implements.
+Date: 2020/01  
+Description: A web application showing book store info.  
+Keywords: React, Typescript, Material-UI, Redux, Arkit, Gource.  
 
-period: 2018/01-2018/03 (2 months)
+### [react-debounce-rendering](https://github.com/ibarapascal/react-debounce-rendering)
 
-## Next  
+Date: 2020/01  
+Description: A package which enable debounce rendering your react component via HOC with typescript supported.  
+Keywords: NPM, React, Typescript, Debounce.  
 
-[TODO List in 2020/01/24](https://github.com/ibarapascal/access-catalog/blob/master/todo-list.md#2020-01-24)
+### [summary-of-react-develop-practice](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md)
 
-## Others
+Date: 2020/01  
+Description: Some note of work summary for React development.  
 
-- [general-links](https://github.com/ibarapascal/access-catalog/blob/master/tool/general-links.md)  
+### [time-controller](https://github.com/ibarapascal/time-controller)
 
-- [ts-debug-in-vscode](https://github.com/ibarapascal/ts-debug-in-vscode): Typescript unit test & libs
+Date: 2019/08  
+Description: A hybrid mobile application to manage your time spent.  
+Keywords: Angular, Ionic, Cordova, Android, Typescript, Bootstrap.  
 
-- [leet-code-google](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code-google.md)
+### [digital-currency-historical-data-s3](https://github.com/ibarapascal/digital-currency-historical-data-s3)
 
-- [leet-code-array](https://github.com/ibarapascal/access-catalog/blob/master/leetcode/leet-code-array.md)
+Date: 2019/07  
+Description: JS scripts to obtain trade data and format to JSON.  
+Keywords: Javascript, JSON, Bitcoin.  
+
+### [digital-currency-auto-trading](https://github.com/ibarapascal/digital-currency-auto-trading)
+
+Date: 2018/01  
+Description: Python scripts to trade digital currency automatically under customized strategy.  
+Keywords: Python, trade, Bitcoin.  
