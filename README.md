@@ -17,6 +17,7 @@ Legend
 
 | Repo & Content | Type | Date | Keywords |
 |----------------|------|------|----------|
+| [summary-of-frontend-dev](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-frontend-develop) | ✒️ | 2020/6 | | |
 | [epicenter-view](https://github.com/ibarapascal/epicenter-view) | 🌐 | 2020/5 | ArcGIS, JS | A web application visualizing seismic epicenter data. |
 | [data-epicenter-jp](https://github.com/ibarapascal/data-epicenter-jp) | 📚 | 2020/5 | JS | JS scripts to format Japan's official seismic epicenter data to CSV, JSON. |
 | Dentsu project #3 | 🌐🔒 | 2020/4 | React, TS, MUI | |
@@ -24,16 +25,20 @@ Legend
 | [netweather](https://github.com/ibarapascal/netweather) | 🌐 | 2020/2 | React, TS, MUI | A web application showing weather forecast info. |
 | [netbooks](https://github.com/ibarapascal/netbooks) | 🌐 | 2020/1 | React, TS, MUI | A web application showing book store info. |
 | [react-debounce-rendering](https://github.com/ibarapascal/react-debounce-rendering) | 📦 | 2020/1 | React, TS | A package which enable debounce rendering your react component via HOC with typescript supported. |
-| [summary-of-react-dev](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md) | ✒️ | 2020/1 | | Some note of work summary for React development. |
+| [summary-of-react-dev](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice) | ✒️ | 2020/1 | | Some note of work summary for React development. |
 | Dentsu project #1 | 🌐🔒 | 2019/10 | React, TS, MUI | |
 | [time-controller](https://github.com/ibarapascal/time-controller) | 📞 | 2019/8 | Angular, TS | A hybrid mobile application to manage your time spent. |
 | [data-digital-currency](https://github.com/ibarapascal/digital-currency-historical-data-s3) | 📚 | 2019/7 | JS | JS scripts to obtain trade data and format to JSON. |
-| Ryohin project #1 | 🌐🔒 | 2019/5 | Angular, JS | |
 | Hitachi project #1 | 🌐🔒 | 2018/7  | Angular, TS | |
 | [digital-currency-auto-trading](https://github.com/ibarapascal/digital-currency-auto-trading) | 📚 | 2018/1 | Python | Python scripts to trade digital currency automatically under customized strategy. |
 | Nomura project #1 | 📞🔒 | 2017/11 | Angular, TS, Ionic | |
 
 ## Public Content
+
+### [summary-of-frontend-develop](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-frontend-develop)
+
+Date: 2020/06  
+Description: Some note of work summary for frontend development.
 
 ### [epicenter-view](https://github.com/ibarapascal/epicenter-view)
 
@@ -75,7 +80,7 @@ Date: 2020/01
 Description: A package which enable debounce rendering your react component via HOC with typescript supported.  
 Keywords: NPM, React, Typescript, Debounce.  
 
-### [summary-of-react-develop-practice](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice/README.md)
+### [summary-of-react-develop-practice](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice)
 
 Date: 2020/01  
 Description: Some note of work summary for React development.  
