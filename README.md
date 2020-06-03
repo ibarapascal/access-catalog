@@ -30,6 +30,7 @@ Legend
 | [time-controller](https://github.com/ibarapascal/time-controller) | 📞 | 2019/8 | Angular, TS | A hybrid mobile application to manage your time spent. |
 | [data-digital-currency](https://github.com/ibarapascal/digital-currency-historical-data-s3) | 📚 | 2019/7 | JS | JS scripts to obtain trade data and format to JSON. |
 | Hitachi project #1 | 🌐🔒 | 2018/7  | Angular, TS | |
+| [dynamic-random-testing](https://github.com/ibarapascal/dynamic-random-testing-strategy) | 📚 | 2018/5 | Python | |
 | [digital-currency-auto-trading](https://github.com/ibarapascal/digital-currency-auto-trading) | 📚 | 2018/1 | Python | Python scripts to trade digital currency automatically under customized strategy. |
 | Nomura project #1 | 📞🔒 | 2017/11 | Angular, TS, Ionic | |
 
@@ -100,6 +101,12 @@ Keywords: Angular, Ionic, Cordova, Android, Typescript, Bootstrap.
 Date: 2019/07  
 Description: JS scripts to obtain trade data and format to JSON.  
 Keywords: Javascript, JSON, Bitcoin.  
+
+### [dynamic-random-testing-strategy](https://github.com/ibarapascal/dynamic-random-testing-strategy)
+
+Date: 2018/05  
+Description: Python scripts to simulate/analysis the strategy of dynamic random testing.  
+Keywords: Python, dynamic random testing
 
 ### [digital-currency-auto-trading](https://github.com/ibarapascal/digital-currency-auto-trading)
 
