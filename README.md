@@ -17,14 +17,13 @@ Legend
 
 | Repo & Content | Type | Date | Keywords |
 |----------------|------|------|----------|
-| [demo-box](https://github.com/ibarapascal/demo-box) | 🌐✒️ | 2020/8 | React, TS, MUI | |
+| [demo-box](https://github.com/ibarapascal/demo-box) | 🌐 | 2020/8 | React, TS, MUI | |
 | [summary-of-frontend-dev](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-frontend-develop) | ✒️ | 2020/6 | | |
 | [epicenter-view](https://github.com/ibarapascal/epicenter-view) | 🌐 | 2020/5 | ArcGIS, JS | A web application visualizing seismic epicenter data. |
 | [data-epicenter-jp](https://github.com/ibarapascal/data-epicenter-jp) | 📚 | 2020/5 | JS | JS scripts to format Japan's official seismic epicenter data to CSV, JSON. |
 | Dentsu project #3 | 🌐🔒 | 2020/4 | React, TS, MUI | |
 | Dentsu project #2 | 📦🔒 | 2020/3 | React, TS, Storybook |
-| [netweather](https://github.com/ibarapascal/netweather) | 🌐 | 2020/2 | React, TS, MUI | A web application showing weather forecast info. |
-| [netbooks](https://github.com/ibarapascal/netbooks) | 🌐 | 2020/1 | React, TS, MUI | A web application showing book store info. |
+| [netbooks](https://github.com/ibarapascal/netbooks), [netweather](https://github.com/ibarapascal/netweather) | 🌐 | 2020/2 | React, TS, MUI | Web applications showing book/weather info. |
 | [react-debounce-rendering](https://github.com/ibarapascal/react-debounce-rendering) | 📦 | 2020/1 | React, TS | A package which enable debounce rendering your react component via HOC with typescript supported. |
 | [summary-of-react-dev](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-react-develop-practice) | ✒️ | 2020/1 | | Some note of work summary for React development. |
 | Dentsu project #1 | 🌐🔒 | 2019/10 | React, TS, MUI | |
