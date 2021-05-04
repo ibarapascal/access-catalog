@@ -17,6 +17,9 @@ Legend
 
 | Repo & Content | Type | Date | Keywords |
 |----------------|------|------|----------|
+| HT project #3 | 🌐📞🔒 | 2021/4 | React, TS, MUI, Storybook | |
+| HT project #2 | 🌐🔒 | 2021/3 | React, TS, MUI | |
+| HT project #1 | 🌐🔒 | 2020/10 | React, TS, MUI | |
 | [demo-box](https://github.com/ibarapascal/demo-box) | 🌐 | 2020/8 | React, TS, MUI | |
 | [summary-of-frontend-dev](https://github.com/ibarapascal/access-catalog/blob/master/blog/summary-of-frontend-develop) | ✒️ | 2020/6 | | |
 | [epicenter-view](https://github.com/ibarapascal/epicenter-view) | 🌐 | 2020/5 | ArcGIS, JS | A web application visualizing seismic epicenter data. |
