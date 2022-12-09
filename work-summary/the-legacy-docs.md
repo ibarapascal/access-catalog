@@ -1,6 +1,6 @@
 ---
 title: The legacy Docs
-time: December 2022
+date: December 2022
 ---
 
 Providing some legacy documentation been made before as a reference. Could be removed in the future.    

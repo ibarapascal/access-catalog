@@ -1,7 +1,6 @@
 ---
 title: Detect URL param changes
-time: December 2021
-corporation: CTW
+date: December 2021
 ---
 
 ## Background

@@ -1,7 +1,6 @@
 ---
 title: Storage Listener
-time: January 2022
-corporation: CTW
+date: January 2022
 ---
 
 If we want to update a status crossing the pages, one approach is to use the localstorage with a listener.  

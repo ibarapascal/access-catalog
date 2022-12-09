@@ -1,7 +1,6 @@
 ---
 title: Detect Screen Border
-time: February 2022
-corporation: WhaleFin Technologies Japan
+date: February 2022
 ---
 
 To detect the screen border offset -> [mouseEvent.screenX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/screenX)  

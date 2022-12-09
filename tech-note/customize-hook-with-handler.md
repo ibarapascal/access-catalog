@@ -1,7 +1,6 @@
 ---
 title: Customize Hook with Handler
-time: December 2022
-corporation: WhaleFin Technologies Japan
+date: December 2022
 ---
 
 ## This is an unfinished docs!

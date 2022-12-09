@@ -1,7 +1,6 @@
 ---
 title: How Did You Blur
-time: December 2021
-corporation: CTW
+date: December 2021
 ---
 
 Basically, an element could be lost focus by the user action of

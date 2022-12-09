@@ -1,7 +1,6 @@
 ---
 title: Keep Focus
-time: December 2021
-corporation: CTW
+date: December 2021
 ---
 
 Sometimes we want to keep the focused element continue to be focused after clicking some other buttons.  

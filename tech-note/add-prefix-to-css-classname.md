@@ -1,7 +1,6 @@
 ---
 title: Add Prefix to CSS ClassName
-time: January 2022
-corporation: CTW
+date: January 2022
 ---
 
 We can actually manipulate our CSS class names without touching the CSS processor.  

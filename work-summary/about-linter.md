@@ -1,6 +1,6 @@
 ---
 title: About Linter
-time: December 2022
+date: December 2022
 ---
 
 TODO

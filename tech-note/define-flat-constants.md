@@ -1,7 +1,6 @@
 ---
 title: Define Flat Constants
-time: March 2020
-corporation: Dentsu Digital
+date: March 2020
 ---
 
 There are always situations that need us to define a list of values/relationships, like dropdown options, possible return values, etc.  

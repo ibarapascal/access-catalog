@@ -1,7 +1,6 @@
 ---
 title: Canvas Image CORS Issue
-time: August 2022
-corporation: WhaleFin Technologies Japan
+date: August 2022
 ---
 
 The required feature is to load an S3 image to edit in the browser, then upload the edited one.  

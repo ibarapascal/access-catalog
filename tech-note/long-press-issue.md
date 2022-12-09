@@ -1,7 +1,6 @@
 ---
 title: Long Press Issue
-time: July 2021
-corporation: Smartiful
+date: July 2021
 ---
 
 For mobile devices, sometimes we want to check if the user has long-pressed an element or not. It's been natively supported by IOS and Android but seems to need a little bit of effort to implement it in browser.  

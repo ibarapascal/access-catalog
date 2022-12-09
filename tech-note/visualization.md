@@ -1,7 +1,6 @@
 ---
 title: Visualization
-time: February 2022
-corporation: CTW
+date: February 2022
 ---
 
 - component dependencies  

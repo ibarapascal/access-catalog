@@ -1,7 +1,6 @@
 ---
 title: Content-editable Div Related
-time: February 2022
-corporation: CTW
+date: February 2022
 ---
 
 ## This is an unfinished docs!
