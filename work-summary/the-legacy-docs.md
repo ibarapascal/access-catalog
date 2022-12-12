@@ -9,4 +9,4 @@ Be aware that the content inside may not be helpful any longer, also there could
 
 ### 2020/1 [Summary of React Develop Practice](https://github.com/ibarapascal/access-catalog/tree/master/blog/summary-of-react-develop-practice)
 
-### 2022/6 [Summary of Frontend Develop](https://github.com/ibarapascal/access-catalog/tree/master/blog/summary-of-frontend-develop)
+### 2020/6 [Summary of Frontend Develop](https://github.com/ibarapascal/access-catalog/tree/master/blog/summary-of-frontend-develop)
