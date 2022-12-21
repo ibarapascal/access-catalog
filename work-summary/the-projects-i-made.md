@@ -13,10 +13,11 @@ title: The Projects I Made
 
 | Project & Repo | Type | Date | Keywords |
 |----------------|------|------|----------|
-| Amber project #1 | 🌐 | 2022/6 | React, TS, Antd, LESS |
+| [netsearch](https://github.com/ibarapascal/netsearch) | 🌐 | 2022/12 | React, TS, Antd, Vite | |
+| Amber project #1 | 🌐 | 2022/6 | React, TS, Antd, Umi |
 | [recoil-observer](https://www.npmjs.com/package/@g123jp/recoil-observer) | 📦 | 2022/2 | Recoil, DevTools
 | [eslint-config-react](https://www.npmjs.com/package/@g123jp/eslint-config-react) <br /> [prettier-config-recommended](https://www.npmjs.com/package/@g123jp/prettier-config-recommended) <br /> [stylelint-config-recommended](https://www.npmjs.com/package/@g123jp/stylelint-config-recommended) | 📦 | 2021/11 | Configs, Eslint, Prettier, Stylelint
-| CTW project #1 | 🌐 | 2021/11 | React, TS, Antd, Vite, SCSS, SSO | |
+| CTW project #1 | 🌐 | 2021/11 | React, TS, Antd, Vite, SSO | |
 | HT project #4 | 🌐📞 | 2021/8 | React, TS | |
 | SMT project #2 | 🌐📞 | 2021/8 | React, TS, MUI, Echarts | |
 | SMT project #1 | 🌐 | 2021/5 | Vue3, TS, Echarts, Amplify | |
