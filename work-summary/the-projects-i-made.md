@@ -2,7 +2,6 @@
 title: The Projects I Made
 ---
 
-
 | Icon | Meaning |
 |------|---------|
 | 🌐 | Web |
@@ -13,6 +12,9 @@ title: The Projects I Made
 
 | Project & Repo | Type | Date | Keywords |
 |----------------|------|------|----------|
+| MKHRDEV project #1 | 🌐📞 | 2023/11 | React, TS, Next, MDX, TailwindCSS | |
+| SMT project #4 | 🌐📞 | 2023/4 | React, TS, Vite, TailwindCSS | |
+| SMT project #3 | 🌐 | 2023/3 | React, TS, Vite, Phaser | |
 | [netsearch](https://github.com/ibarapascal/netsearch) | 🌐 | 2022/12 | React, TS, Antd, Vite | |
 | Amber project #1 | 🌐 | 2022/6 | React, TS, Antd, Umi |
 | [recoil-observer](https://www.npmjs.com/package/@g123jp/recoil-observer) | 📦 | 2022/2 | Recoil, DevTools

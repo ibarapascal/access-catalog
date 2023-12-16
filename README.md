@@ -2,9 +2,15 @@
 
 ## The projects I made
 
--> Click to see the [project list](./work-summary/the-projects-i-made.md)
+Check the [project list](./work-summary/the-projects-i-made.md)
 
-## Tech note
+## Others
+
+<details>
+
+<summary>planning to summarize the legacy content in a new blog page in early 2024, stay tuned</summary>
+
+### Tech note
 
 - [Add Prefix to CSS ClassName](./tech-note/add-prefix-to-css-classname.md)  
 - [Canvas Image CORS Issue](./tech-note/canvas-image-cors-issue.md)  
@@ -20,7 +26,7 @@
 - [Storage Listener](./tech-note/storage-listener.md)  
 - [Visualization](./tech-note/visualization.md)  
 
-## Code demo
+### Code demo
 
 - [card chess: Othello](https://codesandbox.io/s/card-chess-pass-othello-4l8pn)  
 - [card chess: Gobang](https://codesandbox.io/s/card-chess-pass-gobang-bfq1r)  
@@ -31,49 +37,8 @@
 - [swipe navigator #2](https://codesandbox.io/s/react-swipe-with-navigator-demo-2-j984l)  
 - [ArcGIS (TODO)](https://github.com/ibarapascal/epicenter-view)  
 
-## Legacy documents
+### Legacy documents
 
-Click to check the [legacy documents](./work-summary/the-legacy-docs.md)
-
-## TODOs
-
-<details>
-
-<summary>todos for this repo</summary>
-
----
-
-for the docs project
-
-- generate router from markdown folders  
-- prefix processors for labels  
-  - code-demo  
-  - tech-notes  
-  - work-summary  
-- add filter for labels and search function  
-- customize the styles with TailwindCSS  
-- make it responsive  
-- make a template repo to create a docs system!-> like React Beta  
-
-later on
-
-- publish & maintain  
-- clean the previous content  
-- pin in github, link to other places  
-
-for the self-usage, summarize:
-
-- tools
-  - chrome extensions  
-  - IDE extensions  
-  - apps  
-- configs
-  - IDE  
-- templates  
-  - PR/Issue  
-  - JIRA  
-  - repo README  
-  - public package  
-  - react project with vite & lint  
+Check the [legacy documents](./work-summary/the-legacy-docs.md)
 
 </details>
